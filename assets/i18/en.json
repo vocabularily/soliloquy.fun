@@ -1,0 +1,33 @@
+{
+  "title": "Soliloquy - language learning tool",
+  "hero": {
+    "title": "Learn languages by <b>speaking</b> with Soliloquy!",
+    "description": "The ability to speak in a foreign language is the key goal of learning. Practice speaking with <b>Soliloquy</b> and learn faster.",
+    "available": "Available soon, join waitlist!"
+  },
+  "features": {
+    "title": "Learn in a meaningful way",
+    "description": "With Soliloquy, you can practice speaking a new language and build your own personalized phrasebook.<br><br>Our flashcard system and spaced repetition technique help you remember new words and phrases more effectively, so you can make progress faster.",
+
+    "speaking.title": "Speaking practice",
+    "speaking.description": "Soliloquy focuses on speaking. In the app you can add questions and answer them by speaking out loud.",
+    "phrasebook.title": "Phrasebook",
+    "phrasebook.description": "While speaking you will encounter phrases you couldn't say yet. App allows you to collect such phrases and turn them into flashcards.",
+    "flashcards.title": "Flashcards",
+    "flashcards.description": "Thanks to Spaced Repetition Algorithm, you will be able to retain words and phrases for much longer.",
+    "progress.title": "Track progress",
+    "progress.description": "In the app you can track your progress to inform yourself and stay motivated.",
+    "offline.title": "Offline",
+    "offline.description": "Application is offline first. You can use the app without internet connection most of the time.",
+    "backup.title": "Backup",
+    "backup.description": "You can make a backup of your data."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Feel free to contact us. We'd like to answer all your questions.",
+    "email.title": "Email",
+    "email.description": "soliloquy.fun@gmail.com",
+    "privacy.title": "Privacy policy and Terms",
+    "privacy.description": "Read here"
+  }
+}

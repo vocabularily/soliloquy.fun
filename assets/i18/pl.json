@@ -1,0 +1,32 @@
+{
+  "title": "Soliloquy - narzędzie do nauki języków",
+  "hero": {
+    "title": "Ucz się języków poprzez <b>mówienie</b> z Soliloquy!",
+    "description": "Umiejętność mówienia w języku obcym jest kluczowym celem nauki. Ćwicz mówienie z <b>Soliloquy</b> i ucz się szybciej.",
+    "available": "Dostępne wkrótce, dołącz do listy oczekujących!"
+  },
+  "features": {
+    "title": "Ucz się w sensowny sposób",
+    "description": "Dzięki Soliloquy możesz ćwiczyć mówienie w nowym języku i tworzyć własne spersonalizowane rozmówki.<br><br>Nasz system fiszek i technika powtarzania w odstępach pomagają skuteczniej zapamiętywać nowe słowa i wyrażenia, dzięki czemu możesz szybciej robić postępy.",
+    "speaking.title": "Praktyka mówienia",
+    "speaking.description": "Soliloquy koncentruje się na mówieniu. W aplikacji możesz dodawać pytania i odpowiadać na nie, mówiąc na głos.",
+    "phrasebook.title": "Frazy",
+    "phrasebook.description": "Podczas mówienia napotkasz zwroty, których nie potrafiłeś jeszcze wypowiedzieć. Aplikacja pozwala na zbieranie takich fraz i przekształcanie ich w fiszki.",
+    "flashcards.title": "Fiszki",
+    "flashcards.description": "Dzięki algorytmowi Spaced Repetition będziesz w stanie zapamiętać słowa i frazy znacznie dłużej.",
+    "progress.title": "Śledź postępy",
+    "progress.description": "W aplikacji możesz śledzić swoje postępy, aby uzyskać informacje i zachować motywację.",
+    "offline.title": "Offline",
+    "offline.description": "Aplikacja jest wspiera tryb offline. Z aplikacji można korzystać przez większość czasu bez połączenia z Internetem.",
+    "backup.title": "Kopia zapasowa",
+    "backup.description": "Możesz wykonać kopię zapasową swoich danych."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Skontaktuj się z nami. Chcielibyśmy odpowiedzieć na wszystkie Twoje pytania.",
+    "email.title": "Email",
+    "email.description": "soliloquy.fun@gmail.com",
+    "privacy.title": "Polityka prywatności i Warunki",
+    "privacy.description": "Przeczytaj tutaj"
+  }
+}
