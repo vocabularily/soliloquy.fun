@@ -32,10 +32,12 @@
             return acc;
           }, {});
 
-          // const language = navigator.language || navigator.userLanguage;
-          // const languagePart = language.split("-")[0]
+          const language = navigator.language || navigator.userLanguage;
+          const languagePart = language.split("-")[0]
+          const languageToUse = languages.includes(languagePart) ? languagePart : "en";
+
           await i18next.init({
-            lng: 'en',
+            lng: languageToUse,
             debug: false,
             resources: res
           });
@@ -49,6 +51,8 @@
           langSelector.addEventListener("change", (e) => {
             i18next.changeLanguage(e.target.value);
           });
+
+          langSelector.value = i18next.language;
         }
         i18Loader();
     </script>
