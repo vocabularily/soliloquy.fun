@@ -307,3 +307,49 @@ a, a:focus {
         margin-top: 120px;
     }
 }
+
+
+@media (min-width: 350px) and (max-width: 500px) {
+
+    #hero {
+        height: 900px;
+    }
+
+    #hero .lead-info {
+        margin-top: 40px;
+    }
+
+    #hero .android-device {
+        margin-top: 20px;
+    }
+
+    #hero h1, #hero p, #hero .stores {
+        text-align: center;
+    }
+
+    #hero .stores {
+        margin-top: 16px;
+    }
+
+    #hero .stores a img {
+        width: 170px;
+    }
+
+    #values {
+        margin-top: 450px;
+    }
+
+    #values .body {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #footer{
+        margin-top: 120px;
+    }
+
+    .text-muted {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
