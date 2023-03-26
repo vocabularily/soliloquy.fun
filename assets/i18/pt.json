@@ -1,0 +1,31 @@
+{
+  "title": "Soliloquy - ferramenta de aprendizagem de idiomas",
+  "hero": {
+    "title": "Aprenda idiomas <b>falando</b> com Soliloquy!",
+    "description": "A habilidade de falar em um idioma estrangeiro é o objetivo principal do aprendizado. Pratique falando com <b>Soliloquy</b> e aprenda mais rápido.",
+    "available": "Disponível em breve, cadastre-se na lista de espera!"
+  },
+  "features": {
+    "title": "Aprenda de maneira significativa",
+    "description": "Com Soliloquy, você pode praticar falar um novo idioma e construir seu próprio livro de frases personalizado. <br> <br> Nosso sistema de cartões e técnica de repetição espaçada ajudam você a lembrar novas palavras e frases de forma mais eficaz, para que você possa progredir mais rapidamente.",
+    "speaking.title": "Prática de fala",
+    "speaking.description": "Soliloquy foca na fala. No aplicativo, você pode adicionar perguntas e respondê-las falando em voz alta.",
+    "phrasebook.title": "Livro de frases",
+    "phrasebook.description": "Enquanto fala, você encontrará frases que ainda não sabe dizer. O aplicativo permite que você colete essas frases e as transforme em cartões de memorização.",
+    "flashcards.title": "Cartões de memorização",
+    "flashcards.description": "Graças ao algoritmo de repetição espaçada, você poderá reter palavras e frases por muito mais tempo.",
+    "progress.title": "Acompanhamento de progresso",
+    "progress.description": "No aplicativo, você pode acompanhar seu progresso para saber em que etapa está no seu processo de aprendizado.",
+    "offline.title": "Offline",
+    "offline.description": "O aplicativo funciona offline. Você pode usá-lo na maioria das vezes sem conexão com a internet.",
+    "backup.title": "Backup",
+    "backup.description": "Você pode fazer backup de seus dados."
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Sinta-se à vontade para entrar em contato conosco. Gostaríamos de responder todas as suas perguntas.",
+    "email.title": "E-mail",
+    "email.description": "soliloquy.fun@gmail.com",
+    "privacy.title": "Política de privacidade e termos",
+    "privacy.description": "Leia aqui"
+  }}

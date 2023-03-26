@@ -1,0 +1,32 @@
+{
+  "title": "Soliloquy - outil d'apprentissage des langues",
+  "hero": {
+    "title": "Apprenez les langues en <b>parlant</b> avec Soliloquy!",
+    "description": "La capacité de parler une langue étrangère est l'objectif clé de l'apprentissage. Pratiquez votre expression orale avec <b>Soliloquy</b> et apprenez plus rapidement.",
+    "available": "Bientôt disponible, inscrivez-vous sur la liste d'attente!"
+  },
+  "features": {
+    "title": "Apprenez de manière significative",
+    "description": "Avec Soliloquy, vous pouvez pratiquer votre expression orale dans une nouvelle langue et créer votre propre livre de phrases personnalisé.<br><br>Notre système de fiches flash et notre technique de répétition espacée vous aident à mémoriser de nouveaux mots et phrases plus efficacement, pour que vous puissiez progresser plus rapidement.",
+    "speaking.title": "Pratique de l'expression orale",
+    "speaking.description": "Soliloquy se concentre sur l'expression orale. Dans l'application, vous pouvez poser des questions et y répondre en parlant à voix haute.",
+    "phrasebook.title": "Livre de phrases",
+    "phrasebook.description": "En parlant, vous rencontrerez des phrases que vous ne pourrez pas encore dire. L'application vous permet de collecter de telles phrases et de les transformer en fiches flash.",
+    "flashcards.title": "Fiches flash",
+    "flashcards.description": "Grâce à l'algorithme de répétition espacée, vous pourrez retenir des mots et des phrases beaucoup plus longtemps.",
+    "progress.title": "Suivi de progression",
+    "progress.description": "Dans l'application, vous pouvez suivre votre progression pour savoir où vous en êtes dans votre processus d'apprentissage.",
+    "offline.title": "Hors ligne",
+    "offline.description": "L'application est conçue pour être utilisée hors ligne. Vous pouvez utiliser l'application sans connexion internet la plupart du temps.",
+    "backup.title": "Sauvegarde",
+    "backup.description": "Vous pouvez sauvegarder vos données."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "N'hésitez pas à nous contacter. Nous serions ravis de répondre à toutes vos questions.",
+    "email.title": "Email",
+    "email.description": "soliloquy.fun@gmail.com",
+    "privacy.title": "Politique de confidentialité et conditions",
+    "privacy.description": "Lisez ici"
+  }
+}

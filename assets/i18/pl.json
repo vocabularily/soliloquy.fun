@@ -15,9 +15,9 @@
     "flashcards.title": "Fiszki",
     "flashcards.description": "Dzięki algorytmowi Spaced Repetition będziesz w stanie zapamiętać słowa i frazy znacznie dłużej.",
     "progress.title": "Śledź postępy",
-    "progress.description": "W aplikacji możesz śledzić swoje postępy, aby uzyskać informacje i zachować motywację.",
+    "progress.description": "W aplikacji możesz śledzić swoje postępy, aby wiedzieć, na jakim etapie procesu nauki jesteś.",
     "offline.title": "Offline",
-    "offline.description": "Aplikacja jest wspiera tryb offline. Z aplikacji można korzystać przez większość czasu bez połączenia z Internetem.",
+    "offline.description": "Aplikacja wspiera tryb offline. Z aplikacji można korzystać przez większość czasu bez połączenia z Internetem.",
     "backup.title": "Kopia zapasowa",
     "backup.description": "Możesz wykonać kopię zapasową swoich danych."
   },

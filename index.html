@@ -23,7 +23,7 @@
         }
 
         async function i18Loader() {
-          const languages = ["en", "pl"];
+          const languages = ["en", "es", "pt", "pl", "de", "fr", "uk", "ru"];
           const jsons = await Promise.all(
             languages.map((l) => fetch("assets/i18/" + l + ".json").then((r) => r.json()))
           );
@@ -65,7 +65,13 @@
             <a href="#"><img src="assets/images/logo.svg" height="100" style="padding:24px;"/></a>
             <select class="language-select" id="langSelector" name="lang" data-width="fit">
                 <option value="en">English</option>
-                <option value="pl">Polish</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+                <option value="pl">Polski</option>
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="uk">Українська</option>
+                <option value="ru">Русски</option>
             </select>
         </div>
         <div class="container">
@@ -93,7 +99,7 @@
                 </div>
                 <div class="col-md-6 mx-auto">
                     <div class="android-device">
-                        <img id="hero-image" src="assets/images/feature-illustration-one.png" alt="screenshot"
+                        <img id="hero-image-two" src="assets/images/feature-illustration-two.png" alt="screenshot"
                              style="width:300px; height: 612px;"/>
                     </div>
                 </div>
@@ -146,7 +152,7 @@
                 <div class="icon"><i class="material-icons md-36">trending_up</i></div>
                 <h3 class="i18n" data-i18n="features.progress.title">Track progress</h3>
                 <p class="i18n" data-i18n="features.progress.description">
-                    In the app you can track your progress to inform yourself and stay motivated.
+                    In the app, you can track your progress to know where you are in your learning process.
                 </p>
             </div>
 
@@ -204,7 +210,7 @@
                     iPhone and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.
                 </p>
                 <p class="text-muted text-center">
-                    © All rights reserved. Gratitude
+                    © All rights reserved. Gratitude.
                 </p>
             </div>
         </div>

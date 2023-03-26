@@ -1,0 +1,32 @@
+{
+  "title": "Soliloquy - Sprachlernwerkzeug",
+  "hero": {
+    "title": "Lerne Sprachen durch <b>Sprechen</b> mit Soliloquy!",
+    "description": "Die Fähigkeit, in einer fremden Sprache zu sprechen, ist das Hauptziel des Lernens. Übe das Sprechen mit <b>Soliloquy</b> und lerne schneller.",
+    "available": "Bald verfügbar, tritt der Warteliste bei!"
+  },
+  "features": {
+    "title": "Lerne auf sinnvolle Weise",
+    "description": "Mit Soliloquy kannst du eine neue Sprache sprechen und dein eigenes personalisiertes Phrasebook erstellen.<br><br>Unser Flashcard-System und unsere Wiederholungstechnik helfen dir dabei, neue Wörter und Phrasen effektiver zu merken, damit du schneller Fortschritte machen kannst.",
+    "speaking.title": "Sprechübungen",
+    "speaking.description": "Soliloquy konzentriert sich auf das Sprechen. In der App kannst du Fragen hinzufügen und sie laut beantworten.",
+    "phrasebook.title": "Phrasebook",
+    "phrasebook.description": "Beim Sprechen wirst du auf Phrasen stoßen, die du noch nicht sagen konntest. Die App ermöglicht es dir, solche Phrasen zu sammeln und in Flashcards umzuwandeln.",
+    "flashcards.title": "Flashcards",
+    "flashcards.description": "Dank des Spaced Repetition Algorithmus kannst du Wörter und Phrasen viel länger behalten.",
+    "progress.title": "Fortschritt verfolgen",
+    "progress.description": "In der App kannst du deinen Fortschritt verfolgen, um zu wissen, wo du in deinem Lernprozess stehst.",
+    "offline.title": "Offline",
+    "offline.description": "Die Anwendung ist offline-fähig. Du kannst die App die meiste Zeit ohne Internetverbindung nutzen.",
+    "backup.title": "Backup",
+    "backup.description": "Du kannst eine Sicherungskopie deiner Daten erstellen."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Zögere nicht, uns zu kontaktieren. Wir beantworten gerne alle deine Fragen.",
+    "email.title": "E-Mail",
+    "email.description": "soliloquy.fun@gmail.com",
+    "privacy.title": "Datenschutz und Nutzungsbedingungen",
+    "privacy.description": "Hier lesen"
+  }
+}
