@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Soliloquy Fun Blog</title>
+    <link>https://soliloquy.fun/blog/pl/</link>
+    <description>Recent content on Soliloquy Fun Blog</description>
+    <image>
+      <title>Soliloquy Fun Blog</title>
+      <url>https://soliloquy.fun/assets/images/soliloquy-card.png</url>
+      <link>https://soliloquy.fun/assets/images/soliloquy-card.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Jan 2023 11:30:00 +0000</lastBuildDate><atom:link href="https://soliloquy.fun/blog/pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co to jest Soliloquy?</title>
+      <link>https://soliloquy.fun/blog/pl/posts/what-is-soliloquy/</link>
+      <pubDate>Sun, 01 Jan 2023 11:30:00 +0000</pubDate>
+      
+      <guid>https://soliloquy.fun/blog/pl/posts/what-is-soliloquy/</guid>
+      <description>Soliloquy to akt mówienia swoich myśli na głos, niezależnie od obecności słuchaczy, szczególnie przez postaci w sztuce.
+Cieszę się, że mogę podzielić się informacją o nowej mobilnej aplikacji, która pozwala na naukę języków obcych poprzez mówienie! Jeśli jesteś zainteresowany/a wypróbowaniem wersji beta tej aplikacji, zapraszamy do zapisów na naszą listę oczekujących poprzez kliknięcie tutaj: dołącz do listy oczekujących!</description>
+    </item>
+    
+  </channel>
+</rss>
