@@ -27,6 +27,6 @@
     "email.title": "Електронна пошта",
     "email.description": "soliloquy.fun@gmail.com",
     "privacy.title": "Політика конфіденційності та умови використання",
-    "privacy.description": "Прочитайте тут"
+    "privacy.description": "<a href=\"terms/es/index.html\">Прочитайте тут</a>"
   }
 }

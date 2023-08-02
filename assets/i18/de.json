@@ -27,6 +27,6 @@
     "email.title": "E-Mail",
     "email.description": "soliloquy.fun@gmail.com",
     "privacy.title": "Datenschutz und Nutzungsbedingungen",
-    "privacy.description": "Hier lesen"
+    "privacy.description": "<a href=\"terms/de/index.html\">Hier lesen</a>"
   }
 }

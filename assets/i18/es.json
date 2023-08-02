@@ -28,6 +28,6 @@
     "email.title": "Correo electrónico",
     "email.description": "soliloquy.fun@gmail.com",
     "privacy.title": "Política de privacidad y términos",
-    "privacy.description": "Lee aquí"
+    "privacy.description": "<a href=\"terms/es/index.html\">Lee aquí</a>"
   }
 }
