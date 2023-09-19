@@ -15,8 +15,30 @@
                 href="https://soliloquy.fun/blog/pl/posts/what-is-soliloquy/"
                 />
   </url><url>
+    <loc>https://soliloquy.fun/blog/pl/tags/jak-nauczy%C4%87-si%C4%99-angielskiego/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://soliloquy.fun/blog/pl/tags/jak-nauczy%C4%87-si%C4%99-francuskiego/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://soliloquy.fun/blog/pl/tags/jak-nauczy%C4%87-si%C4%99-hiszpa%C5%84skiego/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://soliloquy.fun/blog/pl/posts/learn-a-foreign-language-in-1-year-the-soliloquy-approach/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://soliloquy.fun/blog/posts/learn-a-foreign-language-in-1-year-the-soliloquy-approach/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://soliloquy.fun/blog/pl/posts/learn-a-foreign-language-in-1-year-the-soliloquy-approach/"
+                />
+  </url><url>
     <loc>https://soliloquy.fun/blog/pl/posts/</loc>
-    <lastmod>2023-01-01T11:30:00+00:00</lastmod>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +48,32 @@
                 rel="alternate"
                 hreflang="pl"
                 href="https://soliloquy.fun/blog/pl/posts/"
+                />
+  </url><url>
+    <loc>https://soliloquy.fun/blog/pl/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://soliloquy.fun/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://soliloquy.fun/blog/pl/"
+                />
+  </url><url>
+    <loc>https://soliloquy.fun/blog/pl/tags/</loc>
+    <lastmod>2023-09-10T08:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://soliloquy.fun/blog/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://soliloquy.fun/blog/pl/tags/"
                 />
   </url><url>
     <loc>https://soliloquy.fun/blog/pl/tags/soliloquy/</loc>
@@ -39,32 +87,6 @@
                 rel="alternate"
                 hreflang="pl"
                 href="https://soliloquy.fun/blog/pl/tags/soliloquy/"
-                />
-  </url><url>
-    <loc>https://soliloquy.fun/blog/pl/</loc>
-    <lastmod>2023-01-01T11:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://soliloquy.fun/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://soliloquy.fun/blog/pl/"
-                />
-  </url><url>
-    <loc>https://soliloquy.fun/blog/pl/tags/</loc>
-    <lastmod>2023-01-01T11:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://soliloquy.fun/blog/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://soliloquy.fun/blog/pl/tags/"
                 />
   </url><url>
     <loc>https://soliloquy.fun/blog/pl/categories/</loc>

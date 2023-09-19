@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Soliloquy Fun Blog</title>
-    <link>https://soliloquy.fun/blog/posts/</link>
-    <description>Recent content in Posts on Soliloquy Fun Blog</description>
+    <title>how-to-learn-spanish on Soliloquy Fun Blog</title>
+    <link>https://soliloquy.fun/blog/tags/how-to-learn-spanish/</link>
+    <description>Recent content in how-to-learn-spanish on Soliloquy Fun Blog</description>
     <image>
       <title>Soliloquy Fun Blog</title>
       <url>https://soliloquy.fun/assets/images/soliloquy-card.png</url>
       <link>https://soliloquy.fun/assets/images/soliloquy-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Sep 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://soliloquy.fun/blog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What is Soliloquy?</title>
-      <link>https://soliloquy.fun/blog/posts/what-is-soliloquy/</link>
-      <pubDate>Sun, 01 Jan 2023 11:30:00 +0000</pubDate>
-      
-      <guid>https://soliloquy.fun/blog/posts/what-is-soliloquy/</guid>
-      <description>Soliloquy refers to the act of speaking one&amp;rsquo;s thoughts aloud, whether alone or in the presence of others. It&amp;rsquo;s a technique often used by characters in plays to convey their innermost emotions and ideas.
-Now, I&amp;rsquo;m excited to share that I&amp;rsquo;ve developed a new mobile application that can help you learn foreign languages by speaking! If you&amp;rsquo;re interested in trying the beta version of the app, please sign up for our waiting list by clicking here: join waiting list!</description>
-    </item>
-    
+    <lastBuildDate>Sun, 10 Sep 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://soliloquy.fun/blog/tags/how-to-learn-spanish/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn a foreign language in 1 year - The Soliloquy approach</title>
       <link>https://soliloquy.fun/blog/posts/learn-a-foreign-language-in-1-year-the-soliloquy-approach/</link>
