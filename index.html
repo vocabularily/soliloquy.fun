@@ -1,277 +1,318 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title class="i18n" data-i18n="title">Soliloquy - language learning tool for speaking practice</title>
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-
-    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/favicon/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicon/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicon/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/favicon/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/favicon/apple-touch-icon-60x60.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/favicon/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/favicon/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/favicon/apple-touch-icon-152x152.png"/>
-    <link rel="icon" type="image/png" sizes="196x196" href="./assets/favicon/favicon-196x196.png"/>
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png"/>
-    <link rel="icon" type="image/png" sizes="128x128" href="./assets/favicon/favicon-128.png"/>
-
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="soliloquy.fun">
-    <meta class="i18n" data-i18n="title" name="og:description"
-          content="Soliloquy - language learning tool for speaking practice">
-    <meta name="og:site_name" content="Soliloquy">
-    <meta name="og:url" content="https://soliloquy.fun">
-    <meta name="og:image" content="https://soliloquy.fun/assets/images/soliloquy-card.png">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@SoliloquyFun">
-    <meta name="twitter:domain" content="soliloquy.fun">
-    <meta name="twitter:title" content="soliloquy.fun">
-    <meta class="i18n" data-i18n="title" name="twitter:description"
-          content="Soliloquy - language learning tool for speaking practice">
-    <meta name="twitter:image" content="https://soliloquy.fun/assets/images/soliloquy-card.png">
-    <meta name="twitter:url" content="https://soliloquy.fun">
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WFL6869C');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <script>
-        function updateContent() {
-          const elements = document.getElementsByClassName("i18n");
-          for (let i = 0; i < elements.length; i++) {
-            const element = elements[i];
-            const k = element.getAttribute("data-i18n");
-            element.innerHTML = i18next.t(k);
-          }
-        }
-
-        async function i18Loader() {
-          const languages = ["en", "es", "pt", "pl", "de", "fr", "uk", "ru"];
-          const jsons = await Promise.all(
-            languages.map((l) => fetch("assets/i18/" + l + ".json").then((r) => r.json()))
-          );
-          const res = languages.reduce((acc, l, idx) => {
-            acc[l] = { translation: jsons[idx] };
-            return acc;
-          }, {});
-
-          const language = navigator.language || navigator.userLanguage;
-          const languagePart = language.split("-")[0]
-          const languageToUse = languages.includes(languagePart) ? languagePart : "en";
-
-          await i18next.init({
-            lng: languageToUse,
-            debug: false,
-            resources: res
-          });
-
-          updateContent()
-
-          i18next.on("languageChanged", () => {
-            updateContent();
-          });
-          const langSelector = document.getElementById("langSelector");
-          langSelector.addEventListener("change", (e) => {
-            i18next.changeLanguage(e.target.value);
-          });
-
-          langSelector.value = i18next.language;
-        }
-        i18Loader();
-
-
-    </script>
-</head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFL6869C"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<section id="hero">
-    <div class="background"></div>
-    <div class="content prevent-select">
-        <div class="container">
-            <a href="#"><img src="assets/images/logo.svg" height="100" style="padding:24px;"/></a>
-            <select class="language-select" id="langSelector" name="lang" data-width="fit">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="pt">Português</option>
-                <option value="pl">Polski</option>
-                <option value="de">Deutsch</option>
-                <option value="fr">Français</option>
-                <option value="uk">Українська</option>
-                <option value="ru">Русски</option>
-            </select>
-            <a class="menu-link" href="/blog">Blog</a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mx-auto lead-info">
-                    <h1 class="i18n" data-i18n="hero.title">Learn languages by <b>speaking</b> with Soliloquy!</h1>
-                    <p class="i18n" data-i18n="hero.description">
-                        The ability to speak in a foreign language is the key goal of learning.
-                        Practice speaking with <b>Soliloquy</b> and learn faster.
-                    </p>
-                    <div class="stores">
-                        <a target="_blank" rel="noopener noreferrer"
-                           href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691">
-                            <img src="assets/images/apple.svg" alt="Get it on AppStore"/>
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer"
-                           href="https://play.google.com/store/apps/details?id=fun.soliloquy.app">
-                            <img src="assets/images/google.svg" alt="Get it on Google Play"/>
-                        </a>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Practice speaking and learn new words faster anytime, anywhere, with Soliloquy." />
+        <meta name="author" content="Soliloquy" />
+        <title class="i18n" data-i18n="title">Soliloquy - learn languages faster</title>
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/favicon/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicon/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicon/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/favicon/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/favicon/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/favicon/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/favicon/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/favicon/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" sizes="196x196" href="./assets/favicon/favicon-196x196.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="128x128" href="./assets/favicon/favicon-128x128.png" />
+        <meta name="og:type" content="website" />
+        <meta name="og:title" content="soliloquy.fun" />
+        <meta name="og:description" content="Soliloquy - learn languages faster" />
+        <meta name="og:site_name" content="Soliloquy" />
+        <meta name="og:url" content="https://soliloquy.fun" />
+        <meta name="og:image" content="https://soliloquy.fun/assets/images/soliloquy-card.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@SoliloquyFun" />
+        <meta name="twitter:domain" content="soliloquy.fun" />
+        <meta name="twitter:title" content="soliloquy.fun" />
+        <meta name="twitter:description" content="Soliloquy - learn languages faster" />
+        <meta name="twitter:image" content="https://soliloquy.fun/assets/images/soliloquy-card.png" />
+        <meta name="twitter:url" content="https://soliloquy.fun" />
+        <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+        <script src="js/i18n.js"></script>
+        <!-- Google Tag manager-->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WFL6869C');
+        </script>
+        <!-- End Google Tag Manager-->
+    </head>
+    <body id="page-top">
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFL6869C" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">Soliloquy</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <select class="form-select language-select" id="langSelector" name="lang" data-width="fit">
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="pt">Português</option>
+                            <option value="pl">Polski</option>
+                            <option value="de">Deutsch</option>
+                            <option value="fr">Français</option>
+                            <option value="uk">Українська</option>
+                            <option value="ru">Русски</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="i18n display-4 lh-1 mb-3 fw-bold" data-i18n="hero.title"></h1>
+                            <p class="i18n lead fw-normal text-muted mb-5" data-i18n="hero.description"></p>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="..." /></a>
+                                <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="..." /></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 mx-auto">
-                    <div class="android-device">
-                        <img id="hero-image-two" src="assets/images/feature-illustration-two.png" alt="screenshot"
-                             style="width:300px; height: 612px;"/>
+                    <div class="col-lg-6">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/images/soliloquy-demo.mp4" type="video/mp4" /></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section id="values">
-    <div class="container header">
-        <div class="col-md-12">
-            <h2 class="i18n" data-i18n="features.title">Learn in a meaningful way</h2>
-            <p class="i18n" data-i18n="features.description">
-                With Soliloquy, you can practice speaking a new language and build your own personalized phrasebook.<br><br>
-                Our flashcard system and spaced repetition technique help you remember new words and phrases more
-                effectively, so you can make progress faster.
-            </p>
-        </div>
-    </div>
-    <div class="body">
-        <div class="container">
-            <div class="col-md-3 value">
-                <div class="icon"><i class="material-icons md-36">keyboard_voice</i></div>
-                <h3 class="i18n" data-i18n="features.speaking.title">Speaking practice</h3>
-                <p class="i18n" data-i18n="features.speaking.description">
-                    Soliloquy focuses on speaking. In the app you can add questions and answer them by speaking out
-                    loud.
-                </p>
+        </header>
+        <!-- Quote/testimonial aside-->
+        <aside class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5"><div class="row gx-5 justify-content-center"></div></div>
+        </aside>
+        <!-- Basic features section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="i18n display-4 lh-1 mb-4" data-i18n="story.first.title"></h2>
+                        <p class="i18n lead fw-normal text-muted mb-5 mb-lg-0" data-i18n="story.first.description"></p>
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/smuS_jUZa9I/600x600" alt="..." /></div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-3 col-md-offset-1 value">
-                <div class="icon"><i class="material-icons md-36">book</i></div>
-                <h3 class="i18n" data-i18n="features.phrasebook.title">Phrasebook</h3>
-                <p class="i18n" data-i18n="features.phrasebook.description">
-                    While speaking you will encounter phrases you couldn't say yet. App allows you to collect such
-                    phrases and turn them into flashcards.
-                </p>
+        </section>
+        <!-- Basic features section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/t3IYuQZRDNE/600x600" alt="..." /></div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <h2 class="i18n display-4 lh-1 mb-2 mt-4" data-i18n="story.second.title"></h2>
+                        <p class="i18n lead fw-normal text-muted mb-5 mb-lg-0" data-i18n="story.second.description"></p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-3 col-md-offset-1 value">
-                <div class="icon"><i class="material-icons md-36">note</i></div>
-                <h3 class="i18n" data-i18n="features.flashcards.title">Flashcards</h3>
-                <p class="i18n" data-i18n="features.flashcards.description">
-                    Thanks to Space Repetition Algorithm you will be able to retain words and phrases for much longer.
-                </p>
+        </section>
+        <!-- Basic features section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="i18n display-4 lh-1 mb-4" data-i18n="story.third.title"></h2>
+                        <p class="i18n lead fw-normal text-muted mb-5 mb-lg-0" data-i18n="story.third.description"></p>
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/_94HLr_QXo8/600x600" alt="..." /></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="col-md-3 value">
-                <div class="icon"><i class="material-icons md-36">trending_up</i></div>
-                <h3 class="i18n" data-i18n="features.progress.title">Track progress</h3>
-                <p class="i18n" data-i18n="features.progress.description">
-                    In the app, you can track your progress to know where you are in your learning process.
-                </p>
+        </section>
+        <!-- Basic features section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/mY-6bncc3rw/600x600" alt="..." /></div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <h2 class="i18n display-4 lh-1 mb-2 mt-4" data-i18n="story.fourth.title"></h2>
+                        <p class="i18n lead fw-normal text-muted mb-5 mb-lg-0" data-i18n="story.fourth.description"></p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-3 col-md-offset-1 value">
-                <div class="icon"><i class="material-icons md-36">wifi_off</i></div>
-                <h3 class="i18n" data-i18n="features.offline.title">Offline</h3>
-                <p class="i18n" data-i18n="features.offline.description">
-                    Application is offline first. You can use the app without internet connection most of the time.
-                </p>
+        </section>
+        <!-- App badge section-->
+        <section class="bg-gradient-primary-to-secondary" id="download">
+            <div class="container px-5">
+                <h2 class="i18n text-center text-white font-alt mb-4" data-i18n="badges.title"></h2>
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="..." /></a>
+                    <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="..." /></a>
+                </div>
             </div>
-
-            <div class="col-md-3 col-md-offset-1 value">
-                <div class="icon"><i class="material-icons md-36">cloud_done</i></div>
-                <h3 class="i18n" data-i18n="features.backup.title">Backup</h3>
-                <p class="i18n" data-i18n="features.backup.description">
-                    You can make a backup of your data.
-                </p>
+        </section>
+        <!-- App features section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-megaphone icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="i18n font-alt" data-i18n="features.speaking.title"></h3>
+                                        <p class="i18n text-muted mb-0" data-i18n="features.speaking.description"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-card-text icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="i18n font-alt" data-i18n="features.flashcards.title"></h3>
+                                        <p class="i18n text-muted mb-0" data-i18n="features.flashcards.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-wifi-off icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="i18n font-alt" data-i18n="features.offline.title"></h3>
+                                        <p class="i18n text-muted mb-0" data-i18n="features.offline.description"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="i18n font-alt" data-i18n="features.progress.title"></h3>
+                                        <p class="i18n text-muted mb-0" data-i18n="features.progress.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0">
+                        <!-- Features section device mockup-->
+                        <div class="features-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/images/soliloquy-demo.mp4" type="video/mp4" /></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="container header">
-        <div class="col-md-12">
-            <h2 class="i18n" data-i18n="contact.title">Contact</h2>
-            <p class="i18n" data-i18n="contact.description">
-                Feel free to contact us. We'd like to answer all your questions.
-            </p>
-        </div>
-    </div>
-    <div class="container body">
-        <div class="col-md-3 value"></div>
-        <div class="col-md-3 value">
-            <div class="icon"><i class="material-icons md-36">email</i></div>
-            <h3 class="i18n" data-i18n="contact.email.title">Email</h3>
-            <p><a class="i18n" data-i18n="contact.email.description" href="mailto:soliloquy.fun@gmail.com">soliloquy.fun@gmail.com</a>
-            </p>
-        </div>
-        <div class="col-md-3 value">
-            <div class="icon"><i class="material-icons md-36">health_and_safety</i></div>
-            <h3 class="i18n" data-i18n="contact.privacy.title">Privacy policy and Terms</h3>
-            <p class="i18n" data-i18n="contact.privacy.description"></p>
-        </div>
-        <div class="col-md-3 value"></div>
-    </div>
-</section>
-
-<section id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <p class="text-muted text-center">
-                    Google Play and the Google Play logo are trademarks of Google LLC.<br/>
-                    iPhone and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.
-                </p>
-                <p class="text-muted text-center">
-                    © All rights reserved. Gratitude.
-                </p>
+        </section>
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="col-md-6 mb-5">
+                    <img class="mb-5 img-fluid rounded-circle" src="assets/images/emily.webp" style="max-width: 60%; height: 60%" alt="..." />
+                    <h2 class="i18n display-4 fw-bold lh-1 mb-2" data-i18n="emily.title">Meet Emily</h2>
+                    <p class="i18n lead fw-normal mb-5 mb-lg-0" data-i18n="emily.description">The transformation from language learner to language master</p>
+                </div>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.first.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.first.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.second.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.second.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.third.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.third.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.fourth.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.fourth.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.fifth.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.fifth.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.sixth.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.sixth.description"></p>
+                <p class="i18n lead fw-bold mb-2" data-i18n="emily.seventh.title"></p>
+                <p class="i18n lead fw-normal mb-5" data-i18n="emily.seventh.description"></p>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M0QLQT8FNW"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-M0QLQT8FNW');
-</script>
-</body>
+        </section>
+        <!-- App badge section-->
+        <section class="bg-gradient-primary-to-secondary" id="download">
+            <div class="container px-5">
+                <h2 class="i18n text-center text-white font-alt mb-4" data-i18n="badges.title"></h2>
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="..." /></a>
+                    <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" target="_blank" rel="noopener noreferrer"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="..." /></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; Soliloquy 2024. All Rights Reserved.</div>
+                    <span class="i18n" data-i18n="contact.privacy"></span>
+                    <span class="mx-1">&middot;</span>
+                    <span class="i18n" data-i18n="contact.email"></span>
+                </div>
+            </div>
+        </footer>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M0QLQT8FNW"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-M0QLQT8FNW');
+        </script>
+    </body>
 </html>

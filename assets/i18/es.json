@@ -1,33 +1,56 @@
 {
-  "title": "Soliloquy - herramienta de aprendizaje de idiomas",
-  "hero": {
-    "title": "¡Aprende idiomas <b>hablando</b> con Soliloquy!",
-    "description": "La habilidad de hablar en un idioma extranjero es la meta principal del aprendizaje. Practica hablando con <b>Soliloquy</b> y aprende más rápido.",
-    "available": "¡Disponible pronto, únete a la lista de espera!"
-  },
-  "features": {
-    "title": "Aprende de manera significativa",
-    "description": "Con Soliloquy, puedes practicar hablando un nuevo idioma y construir tu propio libro de frases personalizado. <br> <br> Nuestro sistema de tarjetas y la técnica de repetición espaciada te ayudan a recordar nuevas palabras y frases de manera más efectiva, para que puedas progresar más rápido.",
-
-    "speaking.title": "Práctica de hablar",
-    "speaking.description": "Soliloquy se enfoca en hablar. En la aplicación puedes agregar preguntas y responderlas hablando en voz alta.",
-    "phrasebook.title": "Libro de frases",
-    "phrasebook.description": "Mientras hablas, encontrarás frases que aún no puedes decir. La aplicación te permite recolectar esas frases y convertirlas en tarjetas de memoria.",
-    "flashcards.title": "Tarjetas de memoria",
-    "flashcards.description": "Gracias al algoritmo de repetición espaciada, podrás retener palabras y frases por mucho más tiempo.",
-    "progress.title": "Seguimiento de progreso",
-    "progress.description": "En la aplicación, puedes hacer un seguimiento de tu progreso para saber dónde estás en tu proceso de aprendizaje.",
-    "offline.title": "Sin conexión",
-    "offline.description": "La aplicación está diseñada para trabajar sin conexión. Puedes usarla la mayor parte del tiempo sin necesidad de estar conectado a internet.",
-    "backup.title": "Copia de seguridad",
-    "backup.description": "Puedes hacer una copia de seguridad de tus datos."
-  },
-  "contact": {
-    "title": "Contacto",
-    "description": "No dudes en contactarnos. Nos gustaría responder todas tus preguntas.",
-    "email.title": "Correo electrónico",
-    "email.description": "soliloquy.fun@gmail.com",
-    "privacy.title": "Política de privacidad y términos",
-    "privacy.description": "<a href=\"terms/es/index.html\">Lee aquí</a>"
-  }
+    "title": "Soliloquy - aprende idiomas más rápido",
+    "hero": {
+        "title": "¡Supera tu miedo a hablar en un nuevo idioma!",
+        "description": "Practica hablar y aprende nuevas palabras más rápido en cualquier momento y lugar con Soliloquy."
+    },
+    "features": {
+        "speaking.title": "Práctica de hablar",
+        "speaking.description": "Soliloquy se enfoca en hablar. En la aplicación puedes agregar preguntas y responderlas hablando en voz alta.",
+        "phrasebook.title": "Libro de frases",
+        "phrasebook.description": "Mientras hablas, encontrarás frases que aún no puedes decir. La aplicación te permite recolectar esas frases y convertirlas en tarjetas de memoria.",
+        "flashcards.title": "Tarjetas de memoria",
+        "flashcards.description": "Gracias al algoritmo de repetición espaciada, podrás retener palabras y frases por mucho más tiempo.",
+        "progress.title": "Seguimiento de progreso",
+        "progress.description": "En la aplicación, puedes hacer un seguimiento de tu progreso para saber dónde estás en tu proceso de aprendizaje.",
+        "offline.title": "Sin conexión",
+        "offline.description": "La aplicación está diseñada para trabajar sin conexión. Puedes usarla la mayor parte del tiempo sin necesidad de estar conectado a internet.",
+        "backup.title": "Copia de seguridad",
+        "backup.description": "Puedes hacer una copia de seguridad de tus datos."
+    },
+    "story": {
+        "first.title": "¿Tienes miedo de hablar en un nuevo idioma?",
+        "first.description": "Entendemos que hablar en un nuevo idioma puede ser intimidante. Incluso si puedes entender casi todo, hablar puede ser un desafío completamente diferente.",
+        "second.title": "Puedes aprender rápido porque la práctica hace al maestro",
+        "second.description": "Mejorarás al hablar en un nuevo idioma practicando contigo mismo. Con cada sesión de práctica, te sentirás más cómodo y seguro.",
+        "third.title": "La aplicación Soliloquy está aquí para ayudarte",
+        "third.description": "Con Soliloquy, puedes practicar hablar en un nuevo idioma en cualquier momento y lugar. También puedes aprender nuevas palabras y frases con tarjetas didácticas y repaso espaciado.",
+        "fourth.title": "¡No dejes que el miedo te detenga!",
+        "fourth.description": "Si no practicas hablar, no mejorarás. Descarga Soliloquy y comienza a practicar hoy."
+    },
+    "emily": {
+        "title": "Conoce a Emily",
+        "description": "La transformación de estudiante de idiomas a maestra de idiomas",
+        "first.title": "El Desafío",
+        "first.description": "Emily siempre soñó con hablar español con fluidez. Se imaginaba explorando las vibrantes calles de Barcelona, conversando sin esfuerzo con los lugareños y experimentando la cultura de primera mano. Pero cada vez que intentaba hablar español, su mente se quedaba en blanco, sus palmas sudaban y tropezaba con sus palabras. A pesar de usar varias aplicaciones de idiomas e incluso asistir a clases, todavía se sentía despreparada para conversaciones reales. El miedo a la vergüenza le impedía realmente comprometerse y practicar su habla.",
+        "second.title": "El Punto de Inflexión",
+        "second.description": "Fue entonces cuando Emily descubrió Soliloquy. No era solo otra aplicación de idiomas; era una forma revolucionaria de practicar el habla que se sentía como tener un entrenador personal. Intrigada por la promesa de una herramienta que se centraba en superar las barreras del habla, Emily se inscribió para una prueba gratuita.",
+        "third.title": "La Experiencia de Soliloquy",
+        "third.description": "Soliloquy era diferente. En lugar de ejercicios genéricos de completar los espacios en blanco, la aplicación le ofrecía a Emily preguntas interactivas de la vida real a las que podía responder. Cada sesión era un espacio seguro donde podía hablar sin miedo a ser juzgada. Cada vez que tenía problemas con una oración, la función única de Soliloquy le permitía guardarla. Luego, la aplicación convertía estas oraciones en tarjetas didácticas personalizadas que la ayudaban a dominar frases difíciles y expandir su vocabulario.",
+        "fourth.title": "Crecimiento y Confianza",
+        "fourth.description": "Con cada día que pasaba, la confianza de Emily crecía. Estaba hablando con más fluidez, su vocabulario se estaba expandiendo y, lo mejor de todo, estaba disfrutando del proceso de aprendizaje. Los comentarios de la aplicación eran amables y constructivos, centrándose en el progreso y la motivación.",
+        "fifth.title": "Resultados en el Mundo Real",
+        "fifth.description": "Seis meses después, Emily finalmente hizo su viaje soñado a Barcelona. Caminando por la ciudad, inició conversaciones con los lugareños, pidió comidas en español e incluso bromeó con los comerciantes. El idioma que una vez la intimidaba ahora se sentía natural y familiar. Emily no solo estaba aprendiendo español; lo estaba viviendo.",
+        "sixth.title": "Un Nuevo Capítulo",
+        "sixth.description": "Hoy, Emily usa Soliloquy para mantener sus habilidades en español e incluso ha comenzado a aprender francés. Ella sabe que, con Soliloquy, su objetivo de hablar varios idiomas no es solo un sueño, es una realidad alcanzable.",
+        "seventh.title": "Tu Viaje Comienza Aquí",
+        "seventh.description": "¿Estás listo para transformar tu forma de aprender idiomas? Como Emily, puedes superar tus miedos y desbloquear tu potencial con Soliloquy. Regístrate hoy y da el primer paso para convertirte en un hablante seguro. ¡Tu historia de éxito te espera!"
+    },
+    "badges": {
+        "title": "¡Obtén la aplicación ahora!"
+    },
+    "contact": {
+        "email": "<a href=\"mailto:soliloquy.fun@gmail.com\">E-mail</a>",
+        "privacy": "<a href=\"terms/en/index.html\">Política de privacidad y términos</a>"
+    }
 }

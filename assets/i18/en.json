@@ -1,32 +1,56 @@
 {
-  "title": "Soliloquy - language learning tool for speaking practice",
-  "hero": {
-    "title": "Learn languages by <b>speaking</b> with Soliloquy!",
-    "description": "The ability to speak in a foreign language is the key goal of learning. Practice speaking with <b>Soliloquy</b> and learn faster.",
-    "available": "Available soon, join waitlist!"
-  },
-  "features": {
-    "title": "Learn in a meaningful way",
-    "description": "With Soliloquy, you can practice speaking a new language and build your own personalized phrasebook.<br><br>Our flashcard system and spaced repetition technique help you remember new words and phrases more effectively, so you can make progress faster.",
-    "speaking.title": "Speaking practice",
-    "speaking.description": "Soliloquy focuses on speaking. In the app you can add questions and answer them by speaking out loud.",
-    "phrasebook.title": "Phrasebook",
-    "phrasebook.description": "While speaking you will encounter phrases you couldn't say yet. App allows you to collect such phrases and turn them into flashcards.",
-    "flashcards.title": "Flashcards",
-    "flashcards.description": "Thanks to Spaced Repetition Algorithm, you will be able to retain words and phrases for much longer.",
-    "progress.title": "Track progress",
-    "progress.description": "In the app, you can track your progress to know where you are in your learning process.",
-    "offline.title": "Offline",
-    "offline.description": "Application is offline first. You can use the app without internet connection most of the time.",
-    "backup.title": "Backup",
-    "backup.description": "You can make a backup of your data."
-  },
-  "contact": {
-    "title": "Contact",
-    "description": "Feel free to contact us. We'd like to answer all your questions.",
-    "email.title": "Email",
-    "email.description": "soliloquy.fun@gmail.com",
-    "privacy.title": "Privacy policy and Terms",
-    "privacy.description": "<a href=\"terms/en/index.html\">Read here</a>"
-  }
+    "title": "Soliloquy - learn languages faster",
+    "hero": {
+        "title": "Overcome your fear of speaking in a new language!",
+        "description": "Practice speaking and learn new words faster anytime, anywhere, with Soliloquy."
+    },
+    "features": {
+        "speaking.title": "Speaking practice",
+        "speaking.description": "Soliloquy focuses on speaking. In the app you can add questions and answer them by speaking out loud.",
+        "phrasebook.title": "Phrasebook",
+        "phrasebook.description": "While speaking you will encounter phrases you couldn't say yet. App allows you to collect such phrases and turn them into flashcards.",
+        "flashcards.title": "Flashcards",
+        "flashcards.description": "Thanks to Spaced Repetition Algorithm, you will be able to retain words and phrases for much longer.",
+        "progress.title": "Track progress",
+        "progress.description": "In the app, you can track your progress to know where you are in your learning process.",
+        "offline.title": "Offline",
+        "offline.description": "Application is offline first. You can use the app without internet connection most of the time.",
+        "backup.title": "Backup",
+        "backup.description": "You can make a backup of your data."
+    },
+    "story": {
+        "first.title": "Are you afraid of speaking in a new language?",
+        "first.description": "We understand that speaking in a new language can be intimidating. Even if you can understand almost everything, speaking can be a whole different challenge.",
+        "second.title": "You can learn fast because practice makes perfect",
+        "second.description": "You will get better at speaking in a new language by practicing with yourself. With each practice session, you'll get more comfortable and confident.",
+        "third.title": "The Soliloquy app is here to help you",
+        "third.description": "With Soliloquy, you can practice speaking in a new language anytime, anywhere. You can also learn new words and phrases with flashcards and spaced repetition!",
+        "fourth.title": "Do not let the fear stop you!",
+        "fourth.description": "If you won't practice speaking, you won't get better at it. Download Soliloquy and start practicing today!"
+    },
+    "emily": {
+        "title": "Meet Emily",
+        "description": "The transformation from language learner to language master",
+        "first.title": "The Challenge",
+        "first.description": "Emily always dreamed of speaking Spanish fluently. She pictured herself exploring the vibrant streets of Barcelona, effortlessly chatting with locals and experiencing the culture first-hand. But every time she tried to speak Spanish, her mind would go blank, her palms would sweat, and she'd stumble over her words. Despite using various language apps and even attending classes, she still felt unprepared for real conversations. The fear of embarrassment kept her from truly engaging and practicing her speech.",
+        "second.title": "The Turning Point",
+        "second.description": "That's when Emily discovered Soliloquy. It wasn't just another language app; it was a revolutionary way to practice speaking that felt like having a personal coach. Intrigued by the promise of a tool that focused on overcoming speaking barriers, Emily signed up for a free trial.",
+        "third.title": "The Soliloquy Experience",
+        "third.description": "Soliloquy was different. Instead of generic fill in the blank exercises, the app offered Emily interactive, real-life questions to respond to. Each session was a safe space where she could speak without fear of judgment. Whenever she struggled with a sentence, Soliloquy’s unique feature allowed her to save it. The app then turned these sentences into personalized flashcards, helping her master tricky phrases and expand her vocabulary.",
+        "fourth.title": "Growth and Confidence",
+        "fourth.description": "With each day, Emily's confidence grew. She was speaking more fluently, her vocabulary was expanding, and best of all, she was actually enjoying the learning process. The app’s feedback was gentle and constructive, focusing on progress and encouragement.",
+        "fifth.title": "Real-World Results",
+        "fifth.description": "Six months later, Emily finally took her dream trip to Barcelona. Walking through the city, she struck up conversations with locals, ordered meals in Spanish, and even joked with shopkeepers. The language that once intimidated her now felt natural and familiar. Emily wasn't just learning Spanish; she was living it.",
+        "sixth.title": "A New Chapter",
+        "sixth.description": "Today, Emily uses Soliloquy to maintain her Spanish skills and has even started learning French. She knows that with Soliloquy, her goal of speaking multiple languages isn't just a dream—it's an achievable reality.",
+        "seventh.title": "Your Journey Begins Here",
+        "seventh.description": "Are you ready to transform how you learn languages? Like Emily, you can conquer your fears and unlock your potential with Soliloquy. Sign up today and take the first step towards becoming a confident speaker. Your story of success awaits!"
+    },
+    "badges": {
+        "title": "Get the app now!"
+    },
+    "contact": {
+        "email": "<a href=\"mailto:soliloquy.fun@gmail.com\">E-mail</a>",
+        "privacy": "<a href=\"terms/en/index.html\">Privacy Policy and Terms</a>"
+    }
 }

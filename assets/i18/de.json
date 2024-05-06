@@ -1,32 +1,56 @@
 {
-  "title": "Soliloquy - Sprachlernwerkzeug",
-  "hero": {
-    "title": "Lerne Sprachen durch <b>Sprechen</b> mit Soliloquy!",
-    "description": "Die Fähigkeit, in einer fremden Sprache zu sprechen, ist das Hauptziel des Lernens. Übe das Sprechen mit <b>Soliloquy</b> und lerne schneller.",
-    "available": "Bald verfügbar, tritt der Warteliste bei!"
-  },
-  "features": {
-    "title": "Lerne auf sinnvolle Weise",
-    "description": "Mit Soliloquy kannst du eine neue Sprache sprechen und dein eigenes personalisiertes Phrasebook erstellen.<br><br>Unser Flashcard-System und unsere Wiederholungstechnik helfen dir dabei, neue Wörter und Phrasen effektiver zu merken, damit du schneller Fortschritte machen kannst.",
-    "speaking.title": "Sprechübungen",
-    "speaking.description": "Soliloquy konzentriert sich auf das Sprechen. In der App kannst du Fragen hinzufügen und sie laut beantworten.",
-    "phrasebook.title": "Phrasebook",
-    "phrasebook.description": "Beim Sprechen wirst du auf Phrasen stoßen, die du noch nicht sagen konntest. Die App ermöglicht es dir, solche Phrasen zu sammeln und in Flashcards umzuwandeln.",
-    "flashcards.title": "Flashcards",
-    "flashcards.description": "Dank des Spaced Repetition Algorithmus kannst du Wörter und Phrasen viel länger behalten.",
-    "progress.title": "Fortschritt verfolgen",
-    "progress.description": "In der App kannst du deinen Fortschritt verfolgen, um zu wissen, wo du in deinem Lernprozess stehst.",
-    "offline.title": "Offline",
-    "offline.description": "Die Anwendung ist offline-fähig. Du kannst die App die meiste Zeit ohne Internetverbindung nutzen.",
-    "backup.title": "Backup",
-    "backup.description": "Du kannst eine Sicherungskopie deiner Daten erstellen."
-  },
-  "contact": {
-    "title": "Kontakt",
-    "description": "Zögere nicht, uns zu kontaktieren. Wir beantworten gerne alle deine Fragen.",
-    "email.title": "E-Mail",
-    "email.description": "soliloquy.fun@gmail.com",
-    "privacy.title": "Datenschutz und Nutzungsbedingungen",
-    "privacy.description": "<a href=\"terms/de/index.html\">Hier lesen</a>"
-  }
+    "title": "Soliloquy - Sprachen schneller lernen",
+    "hero": {
+        "title": "Überwinde deine Angst, in einer neuen Sprache zu sprechen!",
+        "description": "Übe das Sprechen und lerne neue Wörter schneller, jederzeit und überall, mit Soliloquy."
+    },
+    "features": {
+        "speaking.title": "Sprechübungen",
+        "speaking.description": "Soliloquy konzentriert sich auf das Sprechen. In der App kannst du Fragen hinzufügen und sie laut beantworten.",
+        "phrasebook.title": "Phrasebook",
+        "phrasebook.description": "Beim Sprechen wirst du auf Phrasen stoßen, die du noch nicht sagen konntest. Die App ermöglicht es dir, solche Phrasen zu sammeln und in Flashcards umzuwandeln.",
+        "flashcards.title": "Flashcards",
+        "flashcards.description": "Dank des Spaced Repetition Algorithmus kannst du Wörter und Phrasen viel länger behalten.",
+        "progress.title": "Fortschritt verfolgen",
+        "progress.description": "In der App kannst du deinen Fortschritt verfolgen, um zu wissen, wo du in deinem Lernprozess stehst.",
+        "offline.title": "Offline",
+        "offline.description": "Die Anwendung ist offline-fähig. Du kannst die App die meiste Zeit ohne Internetverbindung nutzen.",
+        "backup.title": "Backup",
+        "backup.description": "Du kannst eine Sicherungskopie deiner Daten erstellen."
+    },
+    "story": {
+        "first.title": "Haben Sie Angst davor, in einer neuen Sprache zu sprechen?",
+        "first.description": "Wir verstehen, dass das Sprechen in einer neuen Sprache einschüchternd sein kann. Selbst wenn Sie fast alles verstehen, kann das Sprechen eine ganz andere Herausforderung sein.",
+        "second.title": "Sie können schnell lernen, weil Übung den Meister macht",
+        "second.description": "Sie werden besser darin, in einer neuen Sprache zu sprechen, indem Sie mit sich selbst üben. Mit jeder Übungssitzung werden Sie sich wohler und selbstbewusster fühlen.",
+        "third.title": "Die Soliloquy-App ist hier, um Ihnen zu helfen",
+        "third.description": "Mit Soliloquy können Sie jederzeit und überall in einer neuen Sprache sprechen üben. Sie können auch mit Lernkarten und verteiltem Wiederholen neue Wörter und Redewendungen lernen!",
+        "fourth.title": "Lassen Sie sich nicht von der Angst aufhalten!",
+        "fourth.description": "Wenn Sie das Sprechen nicht üben, werden Sie darin nicht besser. Laden Sie Soliloquy herunter und beginnen Sie noch heute mit dem Üben!"
+    },
+    "emily": {
+        "title": "Treffen Sie Emily",
+        "description": "Die Verwandlung von einer Sprachlernenden zur Sprachmeisterin",
+        "first.title": "Die Herausforderung",
+        "first.description": "Emily träumte immer davon, fließend Spanisch zu sprechen. Sie stellte sich vor, die lebhaften Straßen Barcelonas zu erkunden, mühelos mit Einheimischen zu plaudern und die Kultur hautnah zu erleben. Aber jedes Mal, wenn sie versuchte, Spanisch zu sprechen, wurde ihr Kopf leer, ihre Hände wurden feucht, und sie stotterte über ihre Worte. Trotz des Einsatzes verschiedener Sprach-Apps und dem Besuch von Kursen fühlte sie sich immer noch nicht auf echte Gespräche vorbereitet. Die Angst vor Blamage hielt sie davon ab, sich wirklich zu engagieren und ihre Sprache zu üben.",
+        "second.title": "Der Wendepunkt",
+        "second.description": "Da entdeckte Emily Soliloquy. Es war nicht nur eine weitere Sprach-App; es war eine revolutionäre Möglichkeit, das Sprechen zu üben, die sich anfühlte, als hätte sie einen persönlichen Coach. Fasziniert von dem Versprechen eines Tools, das darauf ausgerichtet war, Sprachbarrieren zu überwinden, meldete sich Emily für eine kostenlose Testversion an.",
+        "third.title": "Die Soliloquy-Erfahrung",
+        "third.description": "Soliloquy war anders. Anstatt generische Lückentextübungen zu absolvieren, bot die App Emily interaktive, realitätsnahe Fragen, auf die sie antworten konnte. Jede Sitzung war ein sicherer Ort, an dem sie ohne Angst vor Bewertung sprechen konnte. Wann immer sie mit einem Satz Schwierigkeiten hatte, ermöglichte ihr eine einzigartige Funktion von Soliloquy, ihn zu speichern. Die App verwandelte diese Sätze dann in personalisierte Karteikarten, die ihr halfen, knifflige Phrasen zu meistern und ihren Wortschatz zu erweitern.",
+        "fourth.title": "Wachstum und Selbstvertrauen",
+        "fourth.description": "Mit jedem Tag wuchs Emilys Selbstvertrauen. Sie sprach fließender, ihr Wortschatz wuchs, und das Beste war, dass sie tatsächlich Freude am Lernprozess hatte. Das Feedback der App war sanft und konstruktiv, konzentrierte sich auf Fortschritte und ermutigte sie.",
+        "fifth.title": "Ergebnisse in der realen Welt",
+        "fifth.description": "Sechs Monate später machte Emily endlich ihre Traumreise nach Barcelona. Während sie durch die Stadt ging, nahm sie Gespräche mit Einheimischen auf, bestellte Essen auf Spanisch und scherzte sogar mit Ladenbesitzern. Die Sprache, die sie einst eingeschüchtert hatte, fühlte sich jetzt natürlich und vertraut an. Emily lernte nicht nur Spanisch; sie lebte es.",
+        "sixth.title": "Ein neues Kapitel",
+        "sixth.description": "Heute nutzt Emily Soliloquy, um ihre Spanischkenntnisse zu erhalten und hat sogar angefangen, Französisch zu lernen. Sie weiß, dass ihr Ziel, mehrere Sprachen zu sprechen, mit Soliloquy nicht nur ein Traum ist – es ist eine erreichbare Realität.",
+        "seventh.title": "Ihre Reise beginnt hier",
+        "seventh.description": "Sind Sie bereit, Ihre Art, Sprachen zu lernen, zu verändern? Wie Emily können Sie Ihre Ängste überwinden und Ihr Potenzial mit Soliloquy freisetzen. Melden Sie sich noch heute an und machen Sie den ersten Schritt, um ein selbstbewusster Sprecher zu werden. Ihre Erfolgsgeschichte wartet!"
+    },
+    "badges": {
+        "title": "Holen Sie sich jetzt die App!"
+    },
+    "contact": {
+        "email": "<a href=\"mailto:soliloquy.fun@gmail.com\">E-Mail</a>",
+        "privacy": "<a href=\"terms/de/index.html\">Datenschutz und Nutzungsbedingungen</a>"
+    }
 }
