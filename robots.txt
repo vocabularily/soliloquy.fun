@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://soliloquy.fun/sitemap.xml
+Sitemap: https://soliloquy.fun/sitemap-main.xml
+Sitemap: https://soliloquy.fun/blog/sitemap.xml
