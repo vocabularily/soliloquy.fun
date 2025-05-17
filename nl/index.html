@@ -39,7 +39,7 @@
   <link rel="alternate" hreflang="cs" href="https://soliloquy.fun/cs/" />
 
   <link rel="icon" href="https://soliloquy.fun/assets/images/ico.svg" type="image/png">
-  <link href="https://soliloquy.fun/output.css" rel="stylesheet">
+  <link href="../output.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -179,38 +179,54 @@
           </svg>
         </button>
         <div id="languageSwitcherDropdown" class="language-switcher-dropdown absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20 hidden max-h-60 overflow-y-auto">
-          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">English
-                                                                                                                                                                    (EN)</a>
-          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Polski
-                                                                                                                                                                       (PL)</a>
-          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Deutsch
-                                                                                                                                                                       (DE)</a>
-          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Русский
-                                                                                                                                                                       (RU)</a>
-          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Español
-                                                                                                                                                                       (ES)</a>
-          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Français
-                                                                                                                                                                       (FR)</a>
-          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Italiano
-                                                                                                                                                                       (IT)</a>
-          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Português
-                                                                                                                                                                       (PT)</a>
-          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Українська
-                                                                                                                                                                       (UK)</a>
-          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Norsk
-                                                                                                                                                                       (NO)</a>
-          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Svenska
-                                                                                                                                                                       (SV)</a>
-          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Dansk
-                                                                                                                                                                       (DA)</a>
-          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary active">Nederlands
-                                                                                                                                                                       (NL)</a>
-          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Suomi
-                                                                                                                                                                       (FI)</a>
-          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Ελληνικά
-                                                                                                                                                                       (EL)</a>
-          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Čeština
-                                                                                                                                                                       (CS)</a>
+          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            English (EN)
+          </a>
+          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Polski (PL)
+          </a>
+          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Deutsch (DE)
+          </a>
+          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Русский (RU)
+          </a>
+          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Español (ES)
+          </a>
+          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Français (FR)
+          </a>
+          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Italiano (IT)
+          </a>
+          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Português (PT)
+          </a>
+          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Українська (UK)
+          </a>
+          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Norsk (NO)
+          </a>
+          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Svenska (SV)
+          </a>
+          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Dansk (DA)
+          </a>
+          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Nederlands (NL)
+          </a>
+          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Suomi (FI)
+          </a>
+          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Ελληνικά (EL)
+          </a>
+          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Čeština (CS)
+          </a>
         </div>
       </div>
     </nav>
@@ -265,7 +281,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Slim Lexicon (7k+ Woorden)</h3>
-        <p class="text-gray-600 text-center text-sm">Beheers de meest voorkomende woorden met voorbeeldzinnen en ezelsbruggetjes die ervoor zorgen dat ze blijven hangen.</p>
+        <p class="text-gray-600 text-center text-sm">Beheers de meest voorkomende woorden met voorbeeldzinnen en voeg je eigen ezelsbruggetjes toe die ze laten beklijven.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-emerald-100 text-emerald-600 rounded-full mb-5 mx-auto">
@@ -275,6 +291,15 @@
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">SRS Flashcards</h3>
         <p class="text-gray-600 text-center text-sm">Optimaliseer het onthouden met ons Spaced Repetition System. Leer slimmer, niet harder.</p>
+      </div>
+      <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
+        <div class="flex items-center justify-center h-16 w-16 bg-cyan-100 text-cyan-600 rounded-full mb-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Lees Verhalen</h3>
+        <p class="text-gray-600 text-center text-sm">Verbeter je begrip door actief verhalen op jouw niveau te lezen.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-amber-100 text-amber-600 rounded-full mb-5 mx-auto">
@@ -339,7 +364,7 @@
           </div>
           <h3 class="text-2xl font-semibold text-gray-900">Contextuele Woordenschatverwerving</h3>
         </div>
-        <p class="text-gray-600 leading-relaxed">Ons Slim Lexicon presenteert meer dan 7.000 hoogfrequente woorden binnen realistische voorbeeldzinnen. Ezelsbruggetjes worden aangeboden om sterke mentale verbanden te creëren, zodat je woorden in context leert voor een beter begrip en herinnering, niet alleen geïsoleerde definities.</p>
+        <p class="text-gray-600 leading-relaxed">Ons Slimme Lexicon presenteert meer dan 7.000 hoogfrequente woorden binnen voorbeeldzinnen uit het dagelijks leven. Je kunt persoonlijke ezelsbruggetjes toevoegen om sterke mentale verbindingen te creëren, waardoor je woorden in context leert voor beter begrip en herinnering. Door je eigen zinnen te schrijven voor gegeven woorden, versterk je het geheugen nog verder.</p>
       </div>
 
       <div class="methodology-card bg-white p-8 rounded-xl shadow-lg">
@@ -408,7 +433,7 @@
   </div>
 </section>
 
-<section id="testimonials" class="py-16 md:py-24 bg-white">
+<section id="testimonials" class="py-16 md:py-24 bg-gray-50">
   <div class="container mx-auto px-6">
     <div class="text-center mb-12 md:mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -450,6 +475,116 @@
   </div>
 </section>
 
+<section id="post" class="py-16 md:py-24 bg-gray-100">
+  <article class="prose lg:prose-xl mx-auto p-4">
+    <h2><strong>Word sneller vloeiend: De wetenschappelijk onderbouwde revolutie in het leren van talen</strong></h2>
+<p>Heb je ooit die frustrerende muur gevoeld tijdens je taalavontuur? Je hebt ijverig grammaticaregels bestudeerd, woordenlijsten uit je hoofd geleerd, misschien zelfs populaire apps geprobeerd, om vervolgens met een mond vol tanden te staan in echte gesprekken, of woorden net zo snel weer te vergeten als je ze leert. Die droom om zelfverzekerd in het Spaans te kletsen, Berlijn te doorkruisen met vloeiend Duits, of simpelweg een koffie te bestellen in het Frans zonder een golf van paniek – het voelt net buiten bereik.</p>
+<p>Als dit je bekend voorkomt, ben je niet de enige. De traditionele, vaak passieve, methoden om talen te leren kunnen traag, inefficiënt en eerlijk gezegd ontmoedigend zijn. Maar wat als er een manier was om talen <strong>aanzienlijk sneller en effectiever</strong> te leren? Wat als de sleutel niet alleen <em>meer</em> inspanning was, maar <em>slimmere</em> inspanning, geworteld in bewezen cognitieve wetenschap?</p>
+<p>Het fantastische nieuws is dat zo'n pad bestaat. Het is tijd om verouderde technieken achter je te laten en een revolutie in taalverwerving te omarmen, aangedreven door wetenschap en geavanceerde technologie. Bereid je voor om te ontdekken hoe je echte, snelle vooruitgang kunt boeken, en hoe één innovatieve app, <strong>Soliloquy</strong>, is ontworpen om deze reis naadloos en succesvol te maken.</p>
+<h2>Maak kennis met Hanna: Een universeel verhaal van taalobstakels &amp; ambities</h2>
+<p>Hanna was gepassioneerd, toegewijd en had bijna alles geprobeerd. Talloze uren besteedde ze aan studieboeken vol complexe grammaticale uitleg die spontaan onmogelijk toe te passen leken. Woordenschat-apps boden eindeloze flashcards, maar de woorden voelden vaak losgekoppeld van de echte wereld, wat leidde tot wat Hanna "herkenningsvloeiendheid" noemde – geweldig voor meerkeuzevragen, verschrikkelijk voor het vormen van een zin. Sommige populaire apps voelden meer als spelletjes, boden oppervlakkige beloningen voor het herhalen van vreemde, onnatuurlijke zinnen, waardoor Hanna zich afvroeg of dit daadwerkelijk praktische communicatieve vaardigheden opbouwde. De vooruitgang was pijnlijk traag, wat leidde tot toenemende frustratie en de gevreesde gedachte: "Misschien ben ik gewoon niet goed in talen."</p>
+<p>Hanna verlangde naar meer dan alleen <em>kennis</em> van een taal; Hanna wilde de taal <em>gebruiken</em>, verbinden, begrijpen en begrepen worden. "Er moet een efficiëntere manier zijn om de kloof tussen passieve kennis en actief, zelfverzekerd spreken te overbruggen," mijmerde ze. Dit ging niet alleen om het leren van woorden; het ging om het ontsluiten van een nieuwe wereld.</p>
+<h3>De openbaring: De code van het brein voor snel leren kraken</h3>
+<p>Op een avond, gedreven door een mix van vastberadenheid en wanhoop, verdiepte Hanna zich in onderzoek naar cognitieve wetenschap en leren. Een reeks onderling verbonden principes begon zich af te tekenen en vormde een krachtige routekaart naar effectieve taalverwerving: <strong>actief leren</strong>, <strong>actief ophalen (active recall)</strong>, <strong>diepe geheugencodering</strong>, het <strong>gespreid herhalingssysteem (SRS)</strong>, <strong>doelbewuste oefening</strong>, de vaak onderschatte kracht van <strong>zelfspraak</strong>, en de cruciale rol van <strong>gerichte aandacht</strong>.</p>
+<p>Dit waren niet zomaar hippe modewoorden; het waren wetenschappelijk gevalideerde technieken die verklaren hoe onze hersenen optimaal zijn ingesteld om complexe informatie, zoals een nieuwe taal, te leren en te onthouden. Laten we ze eens nader bekijken, want het begrijpen hiervan is de eerste stap om jouw leerproces te transformeren:</p>
+<ol>
+<li><strong>Actief Leren: De betrokken geest wint</strong><ul>
+<li><strong>Wat het is:</strong> Actief leren is het tegenovergestelde van passief in een college zitten, aantekeningen herlezen of alleen naar audio luisteren. Het vereist jouw directe mentale betrokkenheid. Je worstelt met de stof, stelt het ter discussie, past het toe en maakt het je eigen.</li>
+<li><strong>Waarom het cruciaal is voor talen:</strong> Jezelf simpelweg blootstellen aan een taal is niet genoeg. Je moet er dingen mee <em>doen</em> – zinnen proberen te vormen (ook al zijn ze onvolmaakt), vragen beantwoorden, de onderliggende patronen proberen te begrijpen en het in context gebruiken. Dit creëert sterkere neurale paden dan passieve consumptie ooit zou kunnen. Veel traditionele methoden, en zelfs sommige apps die focussen op simpele matching of herhaling, kunnen onbewust passief leren bevorderen.</li>
+<li><strong>De les:</strong> Stop met een toeschouwer te zijn in je leerproces; word een actieve deelnemer.</li>
+</ul>
+</li>
+<li><strong>Actief Ophalen: Vissen naar informatie, niet alleen herzien</strong><ul>
+<li><strong>Wat het is:</strong> Actief ophalen (ook bekend als retrieval practice) is de handeling van het bewust proberen informatie uit je geheugen op te halen. In plaats van naar het antwoord te kijken, dwing je je hersenen het te vinden. Denk aan zelftesten, proberen de betekenis van een woord te herinneren voordat je de flashcard omdraait, of een concept in je eigen woorden samenvatten.</li>
+<li><strong>Waarom het een leersuperkracht is:</strong> Elke keer dat je met succes een stukje informatie ophaalt, wordt dat geheugenspoor sterker en gemakkelijker toegankelijk in de toekomst. Het is als het versterken van een spier. Herlezen daarentegen creëert een illusie van competentie zonder dezelfde diepe codering.</li>
+<li><strong>De les:</strong> Test jezelf constant. De inspanning van het ophalen is waar het echte leren plaatsvindt.</li>
+</ul>
+</li>
+<li><strong>Geheugencodering: Nieuwe kennis echt laten beklijven</strong><ul>
+<li><strong>Wat het is:</strong> Geheugencodering is het proces van het omzetten van nieuwe informatie in een construct dat in de hersenen kan worden opgeslagen. Voor effectieve langetermijnopslag moet deze codering diep en betekenisvol zijn. Dit omvat het verbinden van nieuwe informatie met bestaande kennis, het creëren van levendige mentale beelden, of het begrijpen van de context.</li>
+<li><strong>Waarom het essentieel is voor woordenschat:</strong> Woordenschat leren is niet alleen het uit het hoofd leren van een woord en de vertaling ervan. Het gaat om het begrijpen van de nuances, het zien in voorbeeldzinnen, en idealiter, het creëren van een gedenkwaardig haakje ervoor – zoals een ezelsbruggetje of een persoonlijke connectie. Apps die alleen woordenlijsten presenteren zonder rijke context of geheugensteuntjes leiden vaak tot oppervlakkige codering.</li>
+<li><strong>De les:</strong> Memoriseer niet alleen; creëer rijke, betekenisvolle verbindingen voor nieuwe woorden en grammaticaconcepten.</li>
+</ul>
+</li>
+<li><strong>Gespreid Herhalingssysteem (SRS): De slimste manier om vergeten tegen te gaan</strong><ul>
+<li><strong>Wat het is:</strong> Gebaseerd op de "vergeetcurve" (die laat zien dat we informatie eerst snel vergeten, daarna langzamer), is SRS een intelligent algoritme dat herhalingen van geleerd materiaal plant met toenemende intervallen. Je herziet informatie net op het moment dat je op het punt staat het te vergeten.</li>
+<li><strong>Waarom het revolutionair is voor retentie:</strong> In plaats van tijd te verspillen met het overdreven bestuderen van wat je al weet, of te vergeten wat je hebt geleerd omdat je het niet op het juiste moment hebt herzien, optimaliseert SRS je studietijd voor maximale langetermijnretentie. Het is veel efficiënter dan handmatige herhaling of massale oefening (blokken).</li>
+<li><strong>De les:</strong> Laat de wetenschap je herhalingsschema bepalen voor een drastisch verbeterd geheugen.</li>
+</ul>
+</li>
+<li><strong>Doelbewuste Oefening: Gerichte inspanning voor doelgerichte verbetering</strong><ul>
+<li><strong>Wat het is:</strong> Bedenkt door psycholoog Anders Ericsson, is doelbewuste oefening niet zomaar gedachteloze herhaling. Het is een sterk gestructureerde activiteit die wordt ondernomen met het specifieke doel om prestaties te verbeteren. Het omvat het focussen op zwakke punten, iets buiten je huidige comfortzone treden, feedback ontvangen en je aanpak verfijnen.</li>
+<li><strong>Waarom het simpele herhaling overtreft:</strong> Oefenen wat je al goed kunt, voelt comfortabel maar leidt tot plateaus. Doelbewuste oefening richt zich op je fouten en uitdagingen, wat leidt tot tastbare vaardigheidsontwikkeling. Voor taal betekent dit niet alleen het herhalen van zinnen, maar proberen grammatica te gebruiken die je moeilijk vindt, of de uitspraak van lastige klanken oefenen en corrigerende feedback krijgen.</li>
+<li><strong>De les:</strong> Identificeer je zwakke punten en oefen met de expliciete bedoeling om ze te verbeteren, en zoek daarbij feedback.</li>
+</ul>
+</li>
+<li><strong>Zelfspraak: Je eerste en meest beschikbare gesprekspartner</strong><ul>
+<li><strong>Wat het is:</strong> Simpel gezegd, het is het hardop oefenen van de taal, zelfs als je alleen bent. Dit kan inhouden dat je je dag vertelt, problemen overdenkt in de doeltaal, of dialogen oefent.</li>
+<li><strong>Waarom het vloeiendheid opbouwt:</strong> Spreken is een fysieke en mentale vaardigheid. Zelfspraak helpt je te wennen aan de klanken, ritmes en zinsstructuren. Het overbrugt de kloof tussen <em>denken over</em> de taal en het daadwerkelijk <em>produceren</em> ervan, en bouwt mondelinge behendigheid en zelfvertrouwen op zonder de druk van een live publiek.</li>
+<li><strong>De les:</strong> Begin vanaf dag één met spreken, ook al is het alleen tegen jezelf. Je hersenen moeten jou de taal horen gebruiken.</li>
+</ul>
+</li>
+<li><strong>Focus: De onderschatte sleutel tot diep leren</strong><ul>
+<li><strong>Wat het is:</strong> In onze hyper-afgeleide wereld wordt het vermogen om ononderbroken tijd te besteden aan één enkele taak een superkracht. Gerichte aandacht maakt "diep werk" mogelijk, waarbij je cognitieve capaciteiten worden gemaximaliseerd.</li>
+<li><strong>Waarom het belangrijk is voor taal:</strong> Talen leren vereist concentratie om nieuwe patronen, woordenschat en grammatica te absorberen. Korte, afgeleide studie-uitbarstingen zijn veel minder effectief dan meeslepende, gefocuste sessies. Elke paar minuten wisselen tussen je leerapp en sociale media versnippert je aandacht en belemmert diepe verwerking.</li>
+<li><strong>De les:</strong> Creëer een afleidingsvrije omgeving en reserveer specifieke tijdslots voor diepgaand talen leren.</li>
+</ul>
+</li>
+</ol>
+<p>Hanna was vol nieuwe energie. Deze principes waren niet alleen abstracte theorieën; het waren actiegerichte strategieën. Dit wetenschappelijke kader bood een duidelijk pad weg van de inefficiënte methoden uit het verleden. De uitdaging was echter hoe al deze krachtige technieken te verweven in een samenhangende, beheersbare leerroutine zonder een doctoraat in de cognitieve wetenschappen nodig te hebben om alles te orkestreren.</p>
+<h2>De oplossing dient zich aan: De ontdekking van Soliloquy</h2>
+<p>Dit is waar <strong>Soliloquy</strong> in Hanna's verhaal kwam. Tijdens haar onderzoek naar tools die deze moderne leerprincipes belichaamden, vond Hanna Soliloquy. Het werd niet aangeprezen als zomaar een taalapp met een enorme woordenlijst of een vleugje gamificatie. In plaats daarvan leek het ontwerp een directe toepassing van actief leren, ophalen, SRS en het cruciale element van AI-gestuurde spreekoefeningen. Het beloofde een holistische aanpak, gericht op het opbouwen van echte communicatieve competentie – het vermogen om de taal daadwerkelijk te <em>gebruiken</em>.</p>
+<p>Zou dit de efficiënte, wetenschappelijk onderbouwde taalleertool kunnen zijn waar Hanna, en talloze anderen, naar op zoek waren? Een tool die eindelijk zou kunnen helpen om <strong>Engels, Pools, Duits, Russisch, Spaans, Frans, Italiaans, Portugees, Oekraïens, Noors, Zweeds, Deens, Nederlands, Fins, Grieks of Tsjechisch</strong> niet alleen sneller, maar ook diepgaander en met blijvend zelfvertrouwen te leren?</p>
+<p>Geïntrigeerd en hoopvol begon Hanna aan het Soliloquy-avontuur, waarbij ze Pools koos om verbinding te maken met haar familie-erfgoed, maar het ook overwoog om haar professionele Engels aan te scherpen en misschien eindelijk Duits aan te pakken voor die droomreis.</p>
+<h3>Soliloquy in actie: Waar wetenschappelijk onderbouwde strategie en gebruiksvriendelijke technologie samenkomen</h3>
+<p>Vanaf het begin merkte Hanna dat Soliloquy anders was. Het ging niet om het passief consumeren van inhoud; het ging om actief <em>doen</em>. Hier is hoe de functies direct die krachtige leerprincipes implementeerden, waardoor een ervaring ontstond die zowel intuïtief als ongelooflijk effectief aanvoelde, en zich onderscheidde van andere apps die Hanna had geprobeerd:</p>
+<ul>
+<li>
+<p><strong>Spreekoefeningen opnieuw uitgevonden (Actief Leren, Doelbewuste Oefening, Zelfspraak, AI-docent):</strong> De <strong>Vragen</strong>-functie werd de hoeksteen van Hanna's oefening. Dit was niet het repetitieve, vaak onnatuurlijke zinnendrillen dat elders te vinden is. Soliloquy zette Hanna aan tot <em>spreken</em>, tot het beantwoorden van gevarieerde vragen en het construeren van antwoorden. De <strong>AI-feedback</strong> was onmiddellijk, specifiek en constructief. Het markeerde niet alleen fouten; het legde ze uit en bood natuurlijkere, bruikbare zinnen aan. Dit was doelbewuste oefening op zijn best, waardoor Hanna uitspraak, grammatica en vloeiendheid kon aanpakken in een ondersteunende omgeving. Het voelde alsof ze 24/7 een geduldige, persoonlijke AI-docent beschikbaar had, die de vitale oefening van zelfspraak en actief taalgebruik aanmoedigde, ver voorbij simpele invuloefeningen of uitspraakbeoordelingen van losse woorden. Alleen al deze functie hielp Hanna de spreekangst te overwinnen die eerdere pogingen had geplaagd.</p>
+</li>
+<li>
+<p><strong>Een krachtige, contextuele woordenschat opbouwen (Geheugencodering, Contextueel Leren, Actief Ophalen):</strong> Het <strong>Lexicon</strong> met zijn 7.000+ meest gebruikte woorden was een gamechanger. Veel apps pochen met grote woordenlijsten, maar Soliloquy's aanpak was slimmer. Elk woord was niet zomaar een vertaling; het kwam met een duidelijke <strong>zin die context bood</strong>, en liet zien <em>hoe</em> het woord daadwerkelijk door moedertaalsprekers wordt gebruikt. Dit is cruciaal voor contextueel leren en om verder te gaan dan stijve, schoolse taal. Maar de echte magie voor geheugencodering was de mogelijkheid om persoonlijke <strong>ezelsbruggetjes</strong> toe te voegen en een zin voor een bepaald woord te schrijven. Deze slimme geheugensteuntjes transformeerden de vaak vervelende taak van woordenschatverwerving in iets boeiends en verrassend effectiefs. Lastige woorden, die voorheen wegglipten, hadden nu haakjes waardoor ze bleven hangen. Deze focus op diepe codering, in plaats van alleen maar herhaling, betekende dat Hanna niet alleen voor de korte termijn memoriseerde, maar een blijvend mentaal woordenboek opbouwde. Het was verre van alleen maar door eindeloze, contextloze digitale kaartjes bladeren.</p>
+</li>
+<li>
+<p><strong>Intelligente geheugenverbetering met flashcards (Gespreid Herhalingssysteem, Actief Ophalen):</strong> Hanna was al eerder digitale flashcards tegengekomen, maar Soliloquy's <strong>Flashcards</strong> waren supercharged met een echt <strong>Gespreid Herhalingssysteem (SRS)</strong>. Dit intelligente algoritme leerde Hanna's tempo, en plande herhalingen voor woorden en zinnen op het wetenschappelijk optimale moment – net voordat Hanna ze dreigde te vergeten. Dit zorgde ervoor dat de studietijd ongelooflijk efficiënt was, gericht op materiaal dat versterking nodig had, in plaats van tijd te verspillen aan reeds beheerste items of geleerde items te laten vervagen door gebrek aan tijdige herhaling. Elke flashcardsessie was een actieve ophaaloefening, die geheugensporen versterkte bij elke succesvolle poging. Deze systematische aanpak voelde mijlenver effectiever dan apps die vertrouwen op basis herhalingspatronen of door de gebruiker beheerde flashcardsets.</p>
+</li>
+<li>
+<p><strong>Kristalhelder begrip en uitspraak (Woordenboek &amp; Tekst-naar-spraak):</strong> Geen giswerk of ambiguïteit meer. Telkens wanneer Hanna een onbekend woord tegenkwam, binnen Soliloquy of elders, was het geïntegreerde <strong>Woordenboek</strong> een klik verwijderd. Het bood niet alleen betekenissen en definities, maar ook duidelijke audio-uitspraken door de ingebouwde tekst-naar-spraak (TTS). De <strong>Tekst-naar-spraakfunctionaliteit</strong> breidde dit voordeel uit naar hele zinnen, waardoor Hanna de flow van de taal kon horen. Dit was van onschatbare waarde voor het aanscherpen van luistervaardigheid en het perfectioneren van de uitspraak, en creëerde een veel rijkere auditieve leerervaring dan statische tekst.</p>
+</li>
+<li>
+<p><strong>De toekomst is boeiend: Meeslepend lezen met "Verhalen" (Aankomende functie):</strong> Tot haar opwinding hoorde Hanna over de aankomende <strong>Verhalen</strong>-functie. Dit beloofde actief leren en contextuele woordenschatverwerving naar een nieuw niveau te tillen. Het vooruitzicht om boeiende verhalen te lezen, ontworpen voor taalleerders, en actief met de tekst te werken om het begrip te verbeteren, was ongelooflijk aantrekkelijk. Het signaleerde Soliloquy's toewijding aan een goed afgeronde aanpak, die verder gaat dan geïsoleerde woorden en oefeningen naar holistische taalonderdompeling.</p>
+</li>
+</ul>
+<h2>De transformatie: Van stille student tot zelfverzekerde communicator</h2>
+<p>De weken en maanden met Soliloquy waren transformerend. De consequente toepassing van actief leren, ophalen, SRS en doelbewuste spreekoefeningen begon tastbare resultaten op te leveren. Hanna was niet langer alleen Pools aan het <em>studeren</em>; Hanna was het <em>gebruiken</em> met toenemend zelfvertrouwen en nauwkeurigheid.</p>
+<p>Voor Hanna, de studente, betekende dit dat ze presentaties glansrijk doorstond en zich voorbereid voelde op een uitwisselingsprogramma. Voor Hanna, de levenslange leerling, betekende het de vreugde van het begrijpen van Poolse films zonder ondertiteling en het plannen van dat Italiaanse avontuur met oprecht enthousiasme. Voor Hanna, de migrant, betekende het dat ze dagelijkse boodschappen kon doen, buren kon verstaan en een echt gevoel van thuishoren ervoer in een nieuw land, veel sneller dan verwacht.</p>
+<p>De gefocuste, wetenschappelijk onderbouwde sessies met Soliloquy waren efficiënt. Tijd besteed aan leren voelde productief, niet verspild. De droom om vloeiend <em>pierogi</em> te bestellen in Krakau, een project te bespreken met een Duitse klant, of simpelweg een diepgaand gesprek te voeren met familieleden in hun moedertaal was niet langer een verre fantasie. Het werd een dagelijkse realiteit. Dit ging niet over het vinden van een magische kortere weg om "een taal in 7 dagen te leren," maar over het ontdekken dat <strong>snel een taal leren</strong> absoluut haalbaar is wanneer je <strong>efficiënte taalleermethoden</strong> gebruikt.</p>
+<h3>Waarom Soliloquy's wetenschappelijk onderbouwde aanpak jouw taalpotentieel ontsluit (en anders is)</h3>
+<p>Het geheim van Hanna's versnelde succes – en het succes dat jij kunt bereiken – ligt in het afstemmen van je studiemethoden op de fundamentele principes van hoe je brein taal verwerft en onthoudt. Soliloquy onderscheidt zich omdat het deze principes systematisch integreert:</p>
+<ul>
+<li><strong>Voorbij gamificatie naar echte betrokkenheid:</strong> Terwijl sommige apps zwaar leunen op spelachtige mechanismen die soms oppervlakkig kunnen aanvoelen, focust Soliloquy op <strong>actief leren en actief ophalen</strong> die leiden tot diepe, betekenisvolle betrokkenheid bij de taal. De beloning is echte vooruitgang, niet alleen punten of reeksen.</li>
+<li><strong>Spreken vanaf dag één, met echte feedback:</strong> Veel platforms bieden beperkte spreekoefeningen, of helemaal geen, afgezien van basisuitspraak. Soliloquy's <strong>AI-gestuurde Vragen-functie</strong> biedt de doelbewuste oefening en gepersonaliseerde feedback die cruciaal zijn voor het ontwikkelen van echte gespreksvaardigheden, en overtreft simpele herhaaloefeningen ver.</li>
+<li><strong>Woordenschat die beklijft en logisch is:</strong> Vergeet het uit het hoofd leren van geïsoleerde woorden zonder context, een veelvoorkomende valkuil. Soliloquy's <strong>Lexicon met contextuele zinnen</strong> en de mogelijkheid om persoonlijke ezelsbruggetjes toe te voegen, zorgen voor diepe geheugencodering, waardoor woordenschatverwerving efficiënt en praktisch wordt. Je leert woorden die je daadwerkelijk zult gebruiken, en je leert ze op een manier waardoor ze bij je blijven.</li>
+<li><strong>Geoptimaliseerd leren met echt SRS:</strong> Soliloquy's <strong>Gespreid Herhalingssysteem</strong> is niet zomaar een mooie term; het is een wetenschappelijk gevalideerde methode om langetermijngeheugenretentie te maximaliseren, zodat je harde werk effectiever loont dan bij apps met rudimentaire herhalingssystemen.</li>
+<li><strong>Een holistische toolkit voor allround vloeiendheid:</strong> Soliloquy is niet zomaar een flashcard-app, of alleen een spreek-app. Het is een uitgebreide toolkit, die spreekoefeningen, woordenschatopbouw, SRS, een woordenboek en tekst-naar-spraak combineert (met Verhalen in aantocht) om alle facetten van het leren van talen aan te pakken.</li>
+</ul>
+<p>Door gebruik te maken van deze wetenschappelijk bewezen methoden, benut binnen een intuïtieve en ondersteunende app, leer je niet alleen; je leert slimmer, sneller en bouwt een fundament voor levenslange vloeiendheid. Een AI-docent zoals Soliloquy maakt deze krachtige, efficiënte taalleermethodologie toegankelijk voor iedereen, of je nu een student bent die streeft naar academisch succes, een professional die wereldwijd moet communiceren, of een hobbyist die een passie najaagt.</p>
+<h3>Ben je er klaar voor om te stoppen met dromen en vol zelfvertrouwen te beginnen met spreken?</h3>
+<p>Als je moe bent van het trage, frustrerende zwoegen van verouderde taalleermethoden, als je je teleurgesteld hebt gevoeld door apps die veel beloofden maar weinig opleverden op het gebied van daadwerkelijke spreekvaardigheid, dan is het tijd voor verandering. Het is tijd om een sneller, effectiever pad naar vloeiendheid te omarmen.</p>
+<p>Stop met alleen maar wensen dat je Engels, Pools, Duits, Frans, Spaans of een van de andere 16 talen die Soliloquy aanbiedt, kon spreken. De tools en de wetenschap zijn hier om jouw taalambities werkelijkheid te maken.</p>
+<p><strong>Download Soliloquy vandaag nog. Ervaar het diepgaande verschil dat een leersysteem gebouwd op actief leren, actief ophalen, gespreide herhaling en AI-aangedreven spreekoefeningen kan maken. Jouw versnelde reis naar zelfverzekerde communicatie begint nu!</strong></p>
+  </article>
+
+  <div class="container mx-auto px-6 py-16 text-center">
+    <p class="text-xl md:text-2xl font-semibold text-brand-primary mb-10 max-w-2xl mx-auto">
+      Doe aan actief talen leren om sneller resultaten te boeken!
+    </p>
+    <a href="#cta-app-stores" class="bg-brand-secondary hover:bg-brand-secondary-darker text-black font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg">
+      Download App
+    </a>
+  </div>
+</section>
+
 <section id="cta-app-stores" class="py-16 md:py-24 bg-brand-primary text-white">
   <div class="container mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">
@@ -461,14 +596,12 @@
     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
       <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" aria-label="Download on the App Store" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">Download in de</p>
-          <p class="text-xl font-semibold">App Store</p>
+          <img src="https://soliloquy.fun/assets/images/app-store-badge.svg" alt="Download on the App Store Image" width="150" height="auto" />
         </div>
       </a>
       <a href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" aria-label="Get it on Google Play" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">DOWNLOAD VIA</p>
-          <p class="text-xl font-semibold">Google Play</p>
+          <img src="https://soliloquy.fun/assets/images/google-play-badge.svg" alt="Get it on Google Play Image" width="150" height="auto" />
         </div>
       </a>
     </div>

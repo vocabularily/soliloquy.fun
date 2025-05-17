@@ -39,7 +39,7 @@
   <link rel="alternate" hreflang="cs" href="https://soliloquy.fun/cs/" />
 
   <link rel="icon" href="https://soliloquy.fun/assets/images/ico.svg" type="image/png">
-  <link href="https://soliloquy.fun/output.css" rel="stylesheet">
+  <link href="../output.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -179,38 +179,54 @@
           </svg>
         </button>
         <div id="languageSwitcherDropdown" class="language-switcher-dropdown absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20 hidden max-h-60 overflow-y-auto">
-          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">English
-                                                                                                                                                                    (EN)</a>
-          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Polski
-                                                                                                                                                                       (PL)</a>
-          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Deutsch
-                                                                                                                                                                       (DE)</a>
-          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Русский
-                                                                                                                                                                       (RU)</a>
-          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Español
-                                                                                                                                                                       (ES)</a>
-          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Français
-                                                                                                                                                                       (FR)</a>
-          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Italiano
-                                                                                                                                                                       (IT)</a>
-          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Português
-                                                                                                                                                                       (PT)</a>
-          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Українська
-                                                                                                                                                                       (UK)</a>
-          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Norsk
-                                                                                                                                                                       (NO)</a>
-          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Svenska
-                                                                                                                                                                       (SV)</a>
-          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Dansk
-                                                                                                                                                                       (DA)</a>
-          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Nederlands
-                                                                                                                                                                       (NL)</a>
-          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Suomi
-                                                                                                                                                                       (FI)</a>
-          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Ελληνικά
-                                                                                                                                                                       (EL)</a>
-          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary active">Čeština
-                                                                                                                                                                       (CS)</a>
+          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            English (EN)
+          </a>
+          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Polski (PL)
+          </a>
+          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Deutsch (DE)
+          </a>
+          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Русский (RU)
+          </a>
+          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Español (ES)
+          </a>
+          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Français (FR)
+          </a>
+          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Italiano (IT)
+          </a>
+          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Português (PT)
+          </a>
+          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Українська (UK)
+          </a>
+          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Norsk (NO)
+          </a>
+          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Svenska (SV)
+          </a>
+          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Dansk (DA)
+          </a>
+          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Nederlands (NL)
+          </a>
+          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Suomi (FI)
+          </a>
+          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Ελληνικά (EL)
+          </a>
+          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Čeština (CS)
+          </a>
         </div>
       </div>
     </nav>
@@ -265,7 +281,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Chytrý lexikon (7k+ slov)</h3>
-        <p class="text-gray-600 text-center text-sm">Osvojte si nejběžnější slova s příkladovými větami a mnemotechnickými pomůckami, které vám pomohou si je zapamatovat.</p>
+        <p class="text-gray-600 text-center text-sm">Osvojte si nejčastěji používaná slova s příkladovými větami a přidejte si vlastní mnemotechnické pomůcky, které vám pomohou si je zapamatovat.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-emerald-100 text-emerald-600 rounded-full mb-5 mx-auto">
@@ -275,6 +291,15 @@
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Kartičky SRS</h3>
         <p class="text-gray-600 text-center text-sm">Optimalizujte uchování v paměti pomocí našeho systému opakování s časovým odstupem (Spaced Repetition System). Učte se chytřeji, ne tvrději.</p>
+      </div>
+      <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
+        <div class="flex items-center justify-center h-16 w-16 bg-cyan-100 text-cyan-600 rounded-full mb-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Čtěte příběhy</h3>
+        <p class="text-gray-600 text-center text-sm">Zlepšete své porozumění aktivním čtením příběhů na vaší úrovni.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-amber-100 text-amber-600 rounded-full mb-5 mx-auto">
@@ -339,7 +364,7 @@
           </div>
           <h3 class="text-2xl font-semibold text-gray-900">Osvojování slovní zásoby v kontextu</h3>
         </div>
-        <p class="text-gray-600 leading-relaxed">Náš Chytrý lexikon představuje více než 7 000 vysoce frekventovaných slov v reálných příkladových větách. Mnemotechnické pomůcky jsou poskytovány k vytvoření silných mentálních vazeb, což zajišťuje, že se učíte slova v kontextu pro lepší porozumění a zapamatování, nejen izolované definice.</p>
+        <p class="text-gray-600 leading-relaxed">Náš chytrý lexikon představuje více než 7 000 vysoce frekventovaných slov v příkladových větách z reálného života. Můžete si přidat osobní mnemotechnické pomůcky pro vytvoření silných mentálních spojení, což zajišťuje, že se učíte slova v kontextu pro lepší porozumění a vybavování. Psaním vlastních vět pro daná slova si ještě více posílíte paměť.</p>
       </div>
 
       <div class="methodology-card bg-white p-8 rounded-xl shadow-lg">
@@ -408,7 +433,7 @@
   </div>
 </section>
 
-<section id="testimonials" class="py-16 md:py-24 bg-white">
+<section id="testimonials" class="py-16 md:py-24 bg-gray-50">
   <div class="container mx-auto px-6">
     <div class="text-center mb-12 md:mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -450,6 +475,116 @@
   </div>
 </section>
 
+<section id="post" class="py-16 md:py-24 bg-gray-100">
+  <article class="prose lg:prose-xl mx-auto p-4">
+    <h2><strong>Odemkněte si rychlejší plynulost: Vědecky podložená revoluce ve výuce jazyků</strong></h2>
+<p>Pocítil jsi někdy tu frustrující zeď na své cestě za studiem jazyků? Pilně jsi studoval gramatická pravidla, učil se nazpaměť slovíčka, možná jsi dokonce koketoval s populárními aplikacemi, jen abys zjistil, že v reálných konverzacích ti vázne jazyk, nebo zapomínáš slova stejně rychle, jak se je učíš. Ten sen o sebevědomém chatování ve španělštině, o navigaci Berlínem s plynulou němčinou, nebo o prostém objednání kávy ve francouzštině bez vlny paniky – zdá se být prostě mimo dosah.</p>
+<p>Pokud ti to zní povědomě, nejsi sám. Tradiční, často pasivní metody výuky jazyků mohou být pomalé, neefektivní a upřímně řečeno, skličující. Ale co kdyby existoval způsob, jak se učit jazyky <strong>výrazně rychleji a efektivněji</strong>? Co kdyby klíčem nebylo jen <em>více</em> úsilí, ale <em>chytřejší</em> úsilí, založené na prokázané kognitivní vědě?</p>
+<p>Fantastickou zprávou je, že taková cesta existuje. Je čas opustit zastaralé techniky a přijmout revoluci v osvojování jazyků, poháněnou vědou a špičkovou technologií. Připrav se objevit, jak dosáhnout skutečného, rychlého pokroku a jak jedna inovativní aplikace, <strong>Soliloquy</strong>, je navržena tak, aby tato cesta byla hladká a úspěšná.</p>
+<h2>Seznamte se s Hanou: Univerzální příběh jazykových překážek a aspirací</h2>
+<p>Hana byla vášnivá, odhodlaná a vyzkoušela téměř všechno. Nespočet hodin věnovala učebnicím plným složitých gramatických vysvětlení, která se zdála nemožná spontánně aplikovat. Aplikace na slovíčka nabízely nekonečné kartičky, ale slova často působila odtrženě od reálného použití, což vedlo k tomu, co Hana nazývala „plynulostí v rozpoznávání“ – skvělé pro testy s výběrem odpovědí, hrozné pro sestavování vět. Některé populární aplikace působily spíše jako hry, nabízející povrchní odměny za opakování podivných, nepřirozených vět, což Hanu nechávalo na pochybách, zda si tím skutečně buduje praktické komunikační dovednosti. Pokrok byl bolestně pomalý, což vedlo k narůstající frustraci a obávané myšlence: „Možná prostě nejsem na jazyky.“</p>
+<p>Hana toužila po něčem víc než jen vědět <em>o</em> jazyce; Hana ho chtěla <em>používat</em>, spojovat se, rozumět a být srozuměna. „Musí existovat efektivnější způsob, jak překlenout propast mezi pasivní znalostí a aktivním, sebevědomým mluvením,“ přemítala Hana. Nebylo to jen o učení slovíček; bylo to o odemykání nového světa.</p>
+<h3>Prozření: Odemčení kódu mozku pro rychlé učení</h3>
+<p>Jednoho večera, poháněna směsí odhodlání a zoufalství, se Hana ponořila do výzkumu kognitivní vědy a učení. Začala se rýsovat řada vzájemně propojených principů, které tvořily silnou mapu k efektivnímu osvojování: <strong>aktivní učení</strong>, <strong>aktivní vybavování</strong>, <strong>hluboké kódování paměti</strong>, <strong>systém rozloženého opakování (SRS)</strong>, <strong>záměrné procvičování</strong>, často podceňovaná síla <strong>samomluvy</strong> a klíčová role <strong>soustředěné pozornosti</strong>.</p>
+<p>To nebyla jen módní hesla; byly to vědecky ověřené techniky, které vysvětlují, jak je náš mozek optimálně nastaven k učení a uchovávání složitých informací, jako je nový jazyk. Pojďme si je rozebrat, protože jejich pochopení je prvním krokem k transformaci tvého učení:</p>
+<ol>
+<li><strong>Aktivní učení: Zapojená mysl vítězí</strong><ul>
+<li><strong>Co to je:</strong> Aktivní učení je pravým opakem pasivního sezení na přednášce, opětovného čtení poznámek nebo pouhého poslechu audia. Vyžaduje tvé přímé mentální zapojení. Potýkáš se s materiálem, zpochybňuješ ho, aplikuješ ho a osvojuješ si ho.</li>
+<li><strong>Proč je to pro jazyky klíčové:</strong> Pouhé vystavení se jazyku nestačí. Musíš s ním <em>něco dělat</em> – snažit se tvořit věty (i když nedokonalé), odpovídat na otázky, snažit se porozumět základním vzorcům a používat ho v kontextu. To vytváří silnější nervové dráhy, než jaké kdy mohla vytvořit pasivní konzumace. Mnoho tradičních metod, a dokonce i některé aplikace, které se zaměřují na jednoduché přiřazování nebo opakování, mohou neúmyslně podporovat pasivní učení.</li>
+<li><strong>Co si z toho odnést:</strong> Přestaň být divákem ve svém učení; staň se aktivním účastníkem.</li>
+</ul>
+</li>
+<li><strong>Aktivní vybavování: Lov informací, nejen jejich opakování</strong><ul>
+<li><strong>Co to je:</strong> Aktivní vybavování (také známé jako retrieval practice) je akt záměrného snažení se vybavit si informace z paměti. Místo toho, abys se podíval na odpověď, donutíš svůj mozek ji najít. Představ si samotestování, snahu vzpomenout si na význam slova před otočením kartičky nebo shrnutí konceptu vlastními slovy.</li>
+<li><strong>Proč je to superschopnost učení:</strong> Pokaždé, když si úspěšně vybavíš informaci, tato paměťová stopa se stane silnější a snáze přístupná v budoucnu. Je to jako posilování svalu. Naopak opakované čtení vytváří iluzi kompetence bez stejného hlubokého kódování.</li>
+<li><strong>Co si z toho odnést:</strong> Neustále se testuj. Úsilí při vybavování je to, kde dochází ke skutečnému učení.</li>
+</ul>
+</li>
+<li><strong>Kódování paměti: Aby se nové znalosti skutečně zapsaly</strong><ul>
+<li><strong>Co to je:</strong> Kódování paměti je proces převodu nových informací do konstruktu, který může být uložen v mozku. Pro efektivní dlouhodobé uložení musí být toto kódování hluboké a smysluplné. To zahrnuje propojení nových informací s existujícími znalostmi, vytváření živých mentálních obrazů nebo porozumění kontextu.</li>
+<li><strong>Proč je to pro slovní zásobu životně důležité:</strong> Učení slovní zásoby není jen o mechanickém memorování slova a jeho překladu. Jde o pochopení jeho nuancí, vidění ho v příkladových větách a ideálně o vytvoření zapamatovatelné pomůcky – jako je mnemotechnická pomůcka nebo osobní spojení. Aplikace, které pouze předkládají seznamy slov bez bohatého kontextu nebo paměťových pomůcek, často vedou k mělkému kódování.</li>
+<li><strong>Co si z toho odnést:</strong> Neuč se jen nazpaměť; vytvářej bohatá, smysluplná spojení pro nová slova a gramatické koncepty.</li>
+</ul>
+</li>
+<li><strong>Systém rozloženého opakování (SRS): Nejchytřejší způsob, jak porazit zapomínání</strong><ul>
+<li><strong>Co to je:</strong> SRS je založen na „křivce zapomínání“ (která ukazuje, že informace zapomínáme nejprve rychle, pak pomaleji) a je to inteligentní algoritmus, který plánuje opakování naučeného materiálu v prodlužujících se intervalech. Informace si opakuješ právě tehdy, když se je chystáš zapomenout.</li>
+<li><strong>Proč je to revoluční pro udržení znalostí:</strong> Místo plýtvání časem nadměrným studiem toho, co už víš, nebo zapomínáním toho, co ses naučil, protože sis to neopakoval ve správný okamžik, SRS optimalizuje tvůj studijní čas pro maximální dlouhodobé udržení. Je to mnohem efektivnější než manuální opakování nebo hromadné učení (šprtání).</li>
+<li><strong>Co si z toho odnést:</strong> Nech vědu diktovat tvůj plán opakování pro dramaticky zlepšenou paměť.</li>
+</ul>
+</li>
+<li><strong>Záměrné procvičování: Cílené úsilí pro cílené zlepšení</strong><ul>
+<li><strong>Co to je:</strong> Záměrné procvičování, pojem zavedený psychologem Andersem Ericssonem, není jen bezmyšlenkovité opakování. Je to vysoce strukturovaná aktivita prováděná s konkrétním cílem zlepšit výkon. Zahrnuje zaměření na slabé stránky, posouvání se mírně za hranice tvé současné komfortní zóny, přijímání zpětné vazby a zdokonalování tvého přístupu.</li>
+<li><strong>Proč překonává jednoduché opakování:</strong> Procvičování toho, v čem jsi už dobrý, je pohodlné, ale vede k stagnaci. Záměrné procvičování se zaměřuje na tvé chyby a výzvy, což vede k hmatatelnému rozvoji dovedností. Pro jazyk to znamená nejen opakování frází, ale snahu používat gramatiku, která ti připadá obtížná, nebo procvičování výslovnosti náročných zvuků a získávání opravné zpětné vazby.</li>
+<li><strong>Co si z toho odnést:</strong> Identifikuj své slabiny a procvičuj s explicitním záměrem je zlepšit, přičemž hledej zpětnou vazbu.</li>
+</ul>
+</li>
+<li><strong>Samomluva: Tvůj první a nejdostupnější konverzační partner</strong><ul>
+<li><strong>Co to je:</strong> Jednoduše řečeno, je to procvičování mluvení jazykem nahlas, i když jsi sám. To může zahrnovat vyprávění o tvém dni, přemýšlení o problémech v cílovém jazyce nebo procvičování dialogů.</li>
+<li><strong>Proč to buduje plynulost:</strong> Mluvení je fyzická a mentální dovednost. Samomluva ti pomáhá zvyknout si na zvuky, rytmy a větné struktury. Překlenuje propast mezi přemýšlením <em>o</em> jazyce a jeho skutečným <em>produkováním</em>, buduje ústní obratnost a sebedůvěru bez tlaku živého publika.</li>
+<li><strong>Co si z toho odnést:</strong> Začni mluvit od prvního dne, i když jen sám k sobě. Tvůj mozek potřebuje slyšet, jak používáš jazyk.</li>
+</ul>
+</li>
+<li><strong>Soustředění: Podceňovaný klíč k hlubokému učení</strong><ul>
+<li><strong>Co to je:</strong> V našem hyper-rozptýleném světě se schopnost věnovat nepřerušované bloky času jedinému úkolu stává superschopností. Soustředěná pozornost umožňuje „hlubokou práci“, při které jsou tvé kognitivní schopnosti maximalizovány.</li>
+<li><strong>Proč je to pro jazyk důležité:</strong> Učení jazyků vyžaduje koncentraci k absorpci nových vzorců, slovní zásoby a gramatiky. Krátké, rozptýlené studijní dávky jsou mnohem méně efektivní než pohlcující, soustředěné sezení. Přepínání mezi tvou studijní aplikací a sociálními médii každých pár minut fragmentuje tvou pozornost a brání hlubokému zpracování.</li>
+<li><strong>Co si z toho odnést:</strong> Vytvoř si prostředí bez rušivých vlivů a věnuj konkrétní časové úseky hlubokému studiu jazyků.</li>
+</ul>
+</li>
+</ol>
+<p>Hana byla nabitá energií. Tyto principy nebyly jen abstraktní teorie; byly to akční strategie. Tento vědecký rámec poskytoval jasnou cestu od neefektivních metod minulosti. Výzvou však bylo, jak všechny tyto účinné techniky začlenit do soudržné, zvládnutelné studijní rutiny, aniž by k tomu bylo zapotřebí doktorátu z kognitivní vědy.</p>
+<h2>Řešení se objevuje: Objevení Soliloquy</h2>
+<p>Zde vstoupila do Hanina příběhu <strong>Soliloquy</strong>. Při zkoumání nástrojů, které ztělesňovaly tyto moderní principy učení, Hana našla Soliloquy. Nebyla propagována jen jako další jazyková aplikace s rozsáhlým seznamem slovíček nebo špetkou gamifikace. Místo toho se zdálo, že její samotný design je přímou aplikací aktivního učení, vybavování, SRS a klíčového prvku procvičování mluvení řízeného umělou inteligencí. Slibovala holistický přístup zaměřený na budování skutečné komunikativní kompetence – schopnosti jazyk skutečně <em>používat</em>.</p>
+<p>Mohla by to být ta efektivní, vědecky podložená jazyková aplikace, kterou Hana a nespočet dalších hledali? Nástroj, který by konečně mohl pomoci naučit se <strong>anglicky, polsky, německy, rusky, španělsky, francouzsky, italsky, portugalsky, ukrajinsky, norskv, švédsky, dánsky, nizozemsky, finsky, řecky nebo česky</strong> nejen rychleji, ale hlouběji a s trvalou sebedůvěrou?</p>
+<p>Zaujatá a plná naděje se Hana vydala na cestu se Soliloquy, zvolila si polštinu, aby se spojila s rodinným dědictvím, ale také s ní počítala pro zdokonalení své profesní angličtiny a možná konečně zvládnutí němčiny pro ten vysněný výlet.</p>
+<h3>Soliloquy v akci: Kde se vědecky podložená strategie setkává s uživatelsky přívětivou technologií</h3>
+<p>Od samého začátku si Hana všimla, že Soliloquy je jiná. Nebylo to o pasivním konzumování obsahu; bylo to o aktivním <em>dělání</em>. Zde je, jak její funkce přímo implementovaly ty silné principy učení, vytvářejíce zážitek, který působil intuitivně i neuvěřitelně efektivně, čímž se odlišovala od ostatních aplikací, které Hana vyzkoušela:</p>
+<ul>
+<li>
+<p><strong>Přepracované procvičování mluvení (Aktivní učení, Záměrné procvičování, Samomluva, AI Tutor):</strong> Funkce <strong>Otázky</strong> se stala základním kamenem Haniny praxe. Nebylo to opakované, často nepřirozené drilování frází, které se nachází jinde. Soliloquy Hanu vybízela k <em>mluvení</em>, k odpovídání na různorodé otázky a k tvoření odpovědí. <strong>Zpětná vazba od AI</strong> byla okamžitá, konkrétní a konstruktivní. Nejenže označovala chyby; vysvětlovala je a nabízela přirozenější, užitečnější fráze. To bylo záměrné procvičování v té nejlepší podobě, které Haně umožňovalo zaměřit se na výslovnost, gramatiku a plynulost v podpůrném prostředí. Působilo to, jako by měla trpělivého, osobního AI tutora dostupného 24/7, který podporoval životně důležitou praxi samomluvy a aktivního používání jazyka, daleko za hranicemi jednoduchých doplňovacích cvičení nebo hodnocení výslovnosti izolovaných slov. Samotná tato funkce pomohla Haně překonat úzkost z mluvení, která sužovala její předchozí pokusy.</p>
+</li>
+<li>
+<p><strong>Budování silné, kontextuální slovní zásoby (Kódování paměti, Kontextuální učení, Aktivní vybavování):</strong> <strong>Lexikon</strong> s více než 7 000 nejčastěji používanými slovy změnil pravidla hry. Mnoho aplikací se chlubí velkými seznamy slovní zásoby, ale přístup Soliloquy byl chytřejší. Každé slovo nebylo jen překladem; přicházelo s jasnou <strong>větou poskytující kontext</strong>, která ukazovala, <em>jak</em> je slovo skutečně používáno rodilými mluvčími. To je klíčové pro kontextuální učení a překonání strohého, učebnicového jazyka. Ale skutečným kouzlem pro kódování paměti byla možnost přidávat osobní <strong>mnemotechnické pomůcky</strong> a psát větu pro dané slovo. Tyto chytré paměťové pomůcky proměnily často únavný úkol osvojování slovní zásoby v něco poutavého a překvapivě efektivního. Záludná slova, která dříve unikala, nyní měla háčky, které je udržely. Toto zaměření na hluboké kódování, spíše než jen na mechanické opakování, znamenalo, že Hana si nememorovala jen na krátkou dobu, ale budovala si trvalý mentální slovník. Bylo to daleko od pouhého listování nekonečnými digitálními kartičkami bez kontextu.</p>
+</li>
+<li>
+<p><strong>Inteligentní posilování paměti pomocí kartiček (Systém rozloženého opakování, Aktivní vybavování):</strong> Hana se již dříve setkala s digitálními kartičkami, ale <strong>Kartičky</strong> Soliloquy byly vylepšeny skutečným <strong>Systémem rozloženého opakování (SRS)</strong>. Tento inteligentní algoritmus se učil Hanino tempo a plánoval opakování slov a frází v vědecky optimálním okamžiku – těsně předtím, než by je Hana zapomněla. To zajistilo, že studijní čas byl neuvěřitelně efektivní, zaměřený na materiál, který potřeboval posílení, místo plýtvání časem na již zvládnuté položky nebo nechávání naučených položek upadat kvůli nedostatku včasného opakování. Každé sezení s kartičkami bylo cvičením aktivního vybavování, posilujícím paměťové stopy s každým úspěšným vybavením. Tento systematický přístup působil o míle efektivněji než aplikace spoléhající na základní vzorce opakování nebo uživatelsky spravované balíčky kartiček.</p>
+</li>
+<li>
+<p><strong>Křišťálově čisté porozumění a výslovnost (Slovník &amp; Převod textu na řeč):</strong> Už žádné hádání nebo nejednoznačnost. Kdykoli Hana narazila na neznámé slovo, ať už v Soliloquy nebo jinde, integrovaný <strong>Slovník</strong> byl na dosah kliknutí. Poskytoval nejen významy a definice, ale také čistou zvukovou výslovnost pomocí vestavěného TTS. Funkce <strong>Převod textu na řeč</strong> rozšířila tuto výhodu na celé věty, což Haně umožnilo slyšet tok jazyka. To bylo neocenitelné pro zdokonalování poslechového porozumění a zdokonalování výslovnosti, vytvářejíc mnohem bohatší sluchový zážitek z učení než statický text.</p>
+</li>
+<li>
+<p><strong>Budoucnost je poutavá: Pohlcující čtení s „Příběhy“ (Připravovaná funkce):</strong> K nadšení přispěla i informace o připravované funkci <strong>Příběhy</strong>. Ta slibovala posunout aktivní učení a osvojování kontextuální slovní zásoby na novou úroveň. Vyhlídka na čtení poutavých příběhů, navržených pro studenty jazyků, a aktivní práci s textem za účelem zlepšení porozumění, byla neuvěřitelně lákavá. Signalizovalo to závazek Soliloquy k ucelenému přístupu, který se posouvá od izolovaných slov a cvičení k holistickému jazykovému ponoru.</p>
+</li>
+</ul>
+<h2>Transformace: Od tichého studenta k sebevědomému komunikátorovi</h2>
+<p>Týdny a měsíce se Soliloquy byly transformační. Důsledná aplikace aktivního učení, vybavování, SRS a záměrného procvičování mluvení začala přinášet hmatatelné výsledky. Hana už jen <em>nestudovala</em> polštinu; Hana ji <em>používala</em> s rostoucí sebedůvěrou a přesností.</p>
+<p>Pro Hanu, studentku, to znamenalo excelentní prezentace a pocit připravenosti na výměnný program. Pro Hanu, celoživotní studentku, to znamenalo radost z porozumění polským filmům bez titulků a plánování toho italského dobrodružství se skutečným nadšením. Pro Hanu, migrantku, to znamenalo zvládání každodenních pochůzek, porozumění sousedům a pocit skutečné sounáležitosti v nové zemi, mnohem rychleji, než očekávala.</p>
+<p>Soustředěné, vědecky podložené sezení se Soliloquy byly efektivní. Čas strávený učením působil produktivně, ne promarněně. Sen o plynulém objednání <em>pirožků</em> v Krakově, diskuzi o projektu s německým klientem nebo prostém sdílení upřímného rozhovoru s rodinnými příslušníky v jejich rodném jazyce už nebyl vzdálenou fantazií. Stával se každodenní realitou. Nebylo to o nalezení kouzelné zkratky k „naučení se jazyka za 7 dní“, ale o objevení, že <strong>rychlé učení jazyků</strong> je absolutně dosažitelné, když používáš <strong>efektivní metody učení jazyků</strong>.</p>
+<h3>Proč vědecky podložený přístup Soliloquy odemyká tvůj jazykový potenciál (a je jiný)</h3>
+<p>Tajemství Hanina zrychleného úspěchu – a úspěchu, kterého můžeš dosáhnout i ty – spočívá ve sladění tvých studijních metod se základními principy toho, jak tvůj mozek osvojuje a uchovává jazyk. Soliloquy vyniká, protože systematicky integruje tyto principy:</p>
+<ul>
+<li><strong>Od gamifikace ke skutečnému zapojení:</strong> Zatímco některé aplikace se silně spoléhají na herní mechaniky, které mohou někdy působit povrchně, Soliloquy se zaměřuje na <strong>aktivní učení a aktivní vybavování</strong>, které vedou k hlubokému, smysluplnému zapojení do jazyka. Odměnou je skutečný pokrok, nejen body nebo série.</li>
+<li><strong>Mluvení od prvního dne, s reálnou zpětnou vazbou:</strong> Mnoho platforem nabízí omezené procvičování mluvení, nebo žádné nad rámec základní výslovnosti. Funkce <strong>Otázky řízené AI</strong> v Soliloquy poskytuje záměrné procvičování a personalizovanou zpětnou vazbu klíčovou pro rozvoj skutečných konverzačních dovedností, daleko přesahující jednoduchá opakovací cvičení.</li>
+<li><strong>Slovní zásoba, která drží a dává smysl:</strong> Zapomeň na mechanické memorování izolovaných slov bez kontextu, což je běžná nástraha. <strong>Lexikon Soliloquy s kontextuálními větami</strong> a možností přidávat osobní mnemotechnické pomůcky zajišťuje hluboké kódování paměti, čímž je osvojování slovní zásoby efektivní a praktické. Učíš se slova, která skutečně použiješ, a učíš se je způsobem, který ti zůstane.</li>
+<li><strong>Optimalizované učení se skutečným SRS:</strong> <strong>Systém rozloženého opakování</strong> Soliloquy není jen nóbl termín; je to vědecky ověřená metoda k maximalizaci dlouhodobého uchování paměti, která zajišťuje, že se tvá tvrdá práce vyplatí efektivněji než u aplikací s rudimentárními systémy opakování.</li>
+<li><strong>Holistická sada nástrojů pro všestrannou plynulost:</strong> Soliloquy není jen aplikace na kartičky nebo jen aplikace na mluvení. Je to komplexní sada nástrojů, která kombinuje procvičování mluvení, budování slovní zásoby, SRS, slovník a převod textu na řeč (s Příběhy na cestě) k řešení všech aspektů učení jazyků.</li>
+</ul>
+<p>Využitím těchto vědecky ověřených metod, zapojených do intuitivní a podpůrné aplikace, se nejen učíš; učíš se chytřeji, rychleji a buduješ si základ pro celoživotní plynulost. AI tutor jako Soliloquy zpřístupňuje tuto silnou, efektivní metodologii výuky jazyků každému, ať už jsi student usilující o akademický úspěch, profesionál potřebující komunikovat globálně, nebo nadšenec věnující se své vášni.</p>
+<h3>Jsi připraven přestat snít a začít mluvit s jistotou?</h3>
+<p>Pokud jsi unavený z pomalého, frustrujícího dřiny zastaralých metod výuky jazyků, pokud ses cítil zklamán aplikacemi, které slibovaly mnoho, ale přinesly málo, pokud jde o skutečnou schopnost mluvit v reálném světě, je čas na změnu. Je čas přijmout rychlejší a efektivnější cestu k plynulosti.</p>
+<p>Přestaň si jen přát, abys uměl mluvit anglicky, polsky, německy, francouzsky, španělsky nebo kterýmkoli z dalších 16 jazyků nabízených Soliloquy. Nástroje a věda jsou zde, aby se tvé jazykové aspirace staly realitou.</p>
+<p><strong>Stáhni si Soliloquy ještě dnes. Zažij hluboký rozdíl, který může přinést systém učení postavený na aktivním učení, aktivním vybavování, rozloženém opakování a procvičování mluvení poháněném AI. Tvá zrychlená cesta k sebevědomé komunikaci začíná právě teď!</strong></p>
+  </article>
+
+  <div class="container mx-auto px-6 py-16 text-center">
+    <p class="text-xl md:text-2xl font-semibold text-brand-primary mb-10 max-w-2xl mx-auto">
+      Zapojte se do aktivní výuky jazyků a dosáhněte výsledků rychleji!
+    </p>
+    <a href="#cta-app-stores" class="bg-brand-secondary hover:bg-brand-secondary-darker text-black font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg">
+      Stáhnout aplikaci
+    </a>
+  </div>
+</section>
+
 <section id="cta-app-stores" class="py-16 md:py-24 bg-brand-primary text-white">
   <div class="container mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">
@@ -461,14 +596,12 @@
     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
       <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" aria-label="Download on the App Store" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">Stáhnout v</p>
-          <p class="text-xl font-semibold">App Store</p>
+          <img src="https://soliloquy.fun/assets/images/app-store-badge.svg" alt="Download on the App Store Image" width="150" height="auto" />
         </div>
       </a>
       <a href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" aria-label="Get it on Google Play" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">NYNÍ NA</p>
-          <p class="text-xl font-semibold">Google Play</p>
+          <img src="https://soliloquy.fun/assets/images/google-play-badge.svg" alt="Get it on Google Play Image" width="150" height="auto" />
         </div>
       </a>
     </div>

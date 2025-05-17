@@ -39,7 +39,7 @@
   <link rel="alternate" hreflang="cs" href="https://soliloquy.fun/cs/" />
 
   <link rel="icon" href="https://soliloquy.fun/assets/images/ico.svg" type="image/png">
-  <link href="https://soliloquy.fun/output.css" rel="stylesheet">
+  <link href="../output.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -179,38 +179,54 @@
           </svg>
         </button>
         <div id="languageSwitcherDropdown" class="language-switcher-dropdown absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20 hidden max-h-60 overflow-y-auto">
-          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">English
-                                                                                                                                                                    (EN)</a>
-          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Polski
-                                                                                                                                                                       (PL)</a>
-          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Deutsch
-                                                                                                                                                                       (DE)</a>
-          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Русский
-                                                                                                                                                                       (RU)</a>
-          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Español
-                                                                                                                                                                       (ES)</a>
-          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Français
-                                                                                                                                                                       (FR)</a>
-          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Italiano
-                                                                                                                                                                       (IT)</a>
-          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Português
-                                                                                                                                                                       (PT)</a>
-          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Українська
-                                                                                                                                                                       (UK)</a>
-          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Norsk
-                                                                                                                                                                       (NO)</a>
-          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary active">Svenska
-                                                                                                                                                                       (SV)</a>
-          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Dansk
-                                                                                                                                                                       (DA)</a>
-          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Nederlands
-                                                                                                                                                                       (NL)</a>
-          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Suomi
-                                                                                                                                                                       (FI)</a>
-          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Ελληνικά
-                                                                                                                                                                       (EL)</a>
-          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Čeština
-                                                                                                                                                                       (CS)</a>
+          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            English (EN)
+          </a>
+          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Polski (PL)
+          </a>
+          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Deutsch (DE)
+          </a>
+          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Русский (RU)
+          </a>
+          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Español (ES)
+          </a>
+          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Français (FR)
+          </a>
+          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Italiano (IT)
+          </a>
+          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Português (PT)
+          </a>
+          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Українська (UK)
+          </a>
+          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Norsk (NO)
+          </a>
+          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Svenska (SV)
+          </a>
+          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Dansk (DA)
+          </a>
+          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Nederlands (NL)
+          </a>
+          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Suomi (FI)
+          </a>
+          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Ελληνικά (EL)
+          </a>
+          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Čeština (CS)
+          </a>
         </div>
       </div>
     </nav>
@@ -265,7 +281,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Smart Lexikon (7k+ ord)</h3>
-        <p class="text-gray-600 text-center text-sm">Bemästra de vanligaste orden med exempelmeningar och minnesregler som får dem att fastna.</p>
+        <p class="text-gray-600 text-center text-sm">Bemästra de vanligaste orden med exempelmeningar och lägg till dina egna minnesregler som får dem att fastna.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-emerald-100 text-emerald-600 rounded-full mb-5 mx-auto">
@@ -275,6 +291,15 @@
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">SRS-flashcards</h3>
         <p class="text-gray-600 text-center text-sm">Optimera minnesbehållning med vårt system för spridd repetition. Lär dig smartare, inte hårdare.</p>
+      </div>
+      <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
+        <div class="flex items-center justify-center h-16 w-16 bg-cyan-100 text-cyan-600 rounded-full mb-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Läs berättelser</h3>
+        <p class="text-gray-600 text-center text-sm">Förbättra din förståelse genom att aktivt läsa berättelser på din nivå.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-amber-100 text-amber-600 rounded-full mb-5 mx-auto">
@@ -339,7 +364,7 @@
           </div>
           <h3 class="text-2xl font-semibold text-gray-900">Kontextuell ordförrådsinlärning</h3>
         </div>
-        <p class="text-gray-600 leading-relaxed">Vårt smarta lexikon presenterar över 7 000 högfrekventa ord i verkliga exempelmeningar. Minnesregler tillhandahålls för att skapa starka mentala kopplingar, vilket säkerställer att du lär dig ord i sitt sammanhang för bättre förståelse och återkallning, inte bara isolerade definitioner.</p>
+        <p class="text-gray-600 leading-relaxed">Vårt smarta lexikon presenterar över 7000 högfrekventa ord i exempel från verkliga livet. Du kan lägga till personliga minnesregler för att skapa starka mentala kopplingar, vilket säkerställer att du lär dig ord i kontext för bättre förståelse och återkallning. Genom att skriva dina egna meningar för givna ord kommer du att stärka minnet ytterligare.</p>
       </div>
 
       <div class="methodology-card bg-white p-8 rounded-xl shadow-lg">
@@ -408,7 +433,7 @@
   </div>
 </section>
 
-<section id="testimonials" class="py-16 md:py-24 bg-white">
+<section id="testimonials" class="py-16 md:py-24 bg-gray-50">
   <div class="container mx-auto px-6">
     <div class="text-center mb-12 md:mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -450,6 +475,116 @@
   </div>
 </section>
 
+<section id="post" class="py-16 md:py-24 bg-gray-100">
+  <article class="prose lg:prose-xl mx-auto p-4">
+    <h2><strong>Nå flytande språk snabbare: Den vetenskapligt underbyggda revolutionen inom språkinlärning</strong></h2>
+<p>Har du någonsin stött på den där frustrerande väggen på din språkinlärningsresa? Du har flitigt studerat grammatikregler, memorerat ordlistor, kanske till och med testat populära appar, bara för att upptäcka att du blir tunghäftad i verkliga samtal, eller glömmer ord lika snabbt som du lär dig dem. Drömmen om att självsäkert chatta på spanska, navigera i Berlin med flytande tyska, eller helt enkelt beställa en kaffe på franska utan en våg av panik – den känns precis utom räckhåll.</p>
+<p>Om detta känns igen är du inte ensam. De traditionella, ofta passiva, metoderna för språkinlärning kan vara långsamma, ineffektiva och ärligt talat nedslående. Men tänk om det fanns ett sätt att lära sig språk <strong>betydligt snabbare och mer effektivt</strong>? Tänk om nyckeln inte bara var <em>mer</em> ansträngning, utan <em>smartare</em> ansträngning, grundad i beprövad kognitionsvetenskap?</p>
+<p>Den fantastiska nyheten är att en sådan väg finns. Det är dags att gå bortom föråldrade tekniker och omfamna en revolution inom språkinlärning, driven av vetenskap och banbrytande teknologi. Gör dig redo att upptäcka hur du kan göra verkliga, snabba framsteg, och hur en innovativ app, <strong>Soliloquy</strong>, är designad för att göra denna resa sömlös och framgångsrik.</p>
+<h2>Möt Hanna: En universell berättelse om språkliga hinder och ambitioner</h2>
+<p>Hanna var passionerad, hängiven och hade provat nästan allt. Otaliga timmar lades på läroböcker fyllda med komplexa grammatikförklaringar som verkade omöjliga att tillämpa spontant. Ordappar erbjöd oändliga flashcards, men orden kändes ofta frånkopplade från verklig användning, vilket ledde till vad Hanna kallade "igenkänningsflyt" – bra för flervalsprov, fruktansvärt för att konstruera en mening. Vissa populära appar kändes mer som spel, och erbjöd ytliga belöningar för att upprepa udda, onaturliga meningar, vilket fick Hanna att undra om detta verkligen byggde praktiska kommunikationsfärdigheter. Framstegen var smärtsamt långsamma, vilket ledde till ökande frustration och den fruktade tanken: "Jag kanske helt enkelt inte är bra på språk."</p>
+<p>Hanna längtade efter mer än att bara veta <em>om</em> ett språk; Hanna ville <em>använda</em> det, skapa kontakt, förstå och bli förstådd. "Det måste finnas ett effektivare sätt att överbrygga klyftan mellan passiv kunskap och aktivt, självsäkert talande," funderade Hanna. Det handlade inte bara om att lära sig ord; det handlade om att låsa upp en ny värld.</p>
+<h3>Uppenbarelsen: Att knäcka hjärnans kod för snabb inlärning</h3>
+<p>En kväll, driven av en blandning av beslutsamhet och desperation, fördjupade sig Hanna i forskning om kognitionsvetenskap och inlärning. En serie sammanlänkade principer började framträda och bildade en kraftfull färdplan för effektiv inlärning: <strong>aktiv inlärning</strong>, <strong>aktivt återkallande</strong>, <strong>djup minneskodning</strong>, <strong>systemet med tidsfördelad repetition (SRS)</strong>, <strong>medveten övning</strong>, den ofta underskattade kraften i <strong>självprat</strong>, och den avgörande rollen av <strong>fokuserad uppmärksamhet</strong>.</p>
+<p>Dessa var inte bara trendiga modeord; de var vetenskapligt validerade tekniker som förklarar hur våra hjärnor är optimalt kopplade för att lära sig och behålla komplex information, som ett nytt språk. Låt oss bryta ner dem, för att förstå dessa är det första steget för att omvandla din inlärning:</p>
+<ol>
+<li><strong>Aktiv inlärning: Det engagerade sinnet vinner</strong><ul>
+<li><strong>Vad det är:</strong> Aktiv inlärning är raka motsatsen till att passivt sitta på en föreläsning, läsa om anteckningar eller bara lyssna på ljud. Det kräver din direkta mentala inblandning. Du brottas med materialet, ifrågasätter det, tillämpar det och gör det till ditt eget.</li>
+<li><strong>Varför det är avgörande för språk:</strong> Att bara utsätta sig för ett språk räcker inte. Du måste <em>göra</em> saker med det – försöka bilda meningar (även om de är ofullkomliga), svara på frågor, försöka förstå de underliggande mönstren och använda det i sitt sammanhang. Detta skapar starkare neurala banor än passiv konsumtion någonsin skulle kunna. Många traditionella metoder, och även vissa appar som fokuserar på enkla matchningar eller repetitioner, kan oavsiktligt främja passiv inlärning.</li>
+<li><strong>Sensmoralen:</strong> Sluta vara en åskådare i din inlärning; bli en aktiv deltagare.</li>
+</ul>
+</li>
+<li><strong>Aktivt återkallande: Att fiska efter information, inte bara granska den</strong><ul>
+<li><strong>Vad det är:</strong> Aktivt återkallande (även känt som hämtningsövning) är handlingen att medvetet försöka hämta information från ditt minne. Istället för att titta på svaret tvingar du din hjärna att hitta det. Tänk självtestning, att försöka komma ihåg ett ords betydelse innan du vänder på flashkortet, eller att sammanfatta ett koncept med dina egna ord.</li>
+<li><strong>Varför det är en inlärningssuperkraft:</strong> Varje gång du framgångsrikt hämtar en bit information blir det minnet starkare och lättare att komma åt i framtiden. Det är som att stärka en muskel. Att läsa om, däremot, skapar en illusion av kompetens utan samma djupa kodning.</li>
+<li><strong>Sensmoralen:</strong> Testa dig själv ständigt. Ansträngningen att återkalla är där den verkliga inlärningen sker.</li>
+</ul>
+</li>
+<li><strong>Minneskodning: Att få ny kunskap att verkligen fastna</strong><ul>
+<li><strong>Vad det är:</strong> Minneskodning är processen att omvandla ny information till en konstruktion som kan lagras i hjärnan. För effektiv långtidslagring måste denna kodning vara djup och meningsfull. Detta innebär att koppla ny information till befintlig kunskap, skapa livfulla mentala bilder eller förstå sammanhanget.</li>
+<li><strong>Varför det är avgörande för ordförråd:</strong> Att lära sig ordförråd handlar inte bara om utantillinlärning av ett ord och dess översättning. Det handlar om att förstå dess nyanser, se det i exempelmeningar och helst skapa en minnesvärd krok för det – som en minnesregel eller en personlig koppling. Appar som bara presenterar ordlistor utan rikt sammanhang eller minneshjälpmedel leder ofta till ytlig kodning.</li>
+<li><strong>Sensmoralen:</strong> Memorera inte bara; skapa rika, meningsfulla kopplingar för nya ord och grammatikkoncept.</li>
+</ul>
+</li>
+<li><strong>System med tidsfördelad repetition (SRS): Det smartaste sättet att besegra glömska</strong><ul>
+<li><strong>Vad det är:</strong> Baserat på "glömskekurvan" (som visar att vi glömmer information snabbt i början, sedan långsammare), är SRS en intelligent algoritm som schemalägger repetitioner av inlärd material med ökande intervall. Du repeterar information precis när du håller på att glömma den.</li>
+<li><strong>Varför det är revolutionerande för bibehållande:</strong> Istället för att slösa tid på att överstudera det du redan kan, eller glömma det du har lärt dig för att du inte repeterade det vid rätt tidpunkt, optimerar SRS din studietid för maximal långsiktig bibehållning. Det är mycket effektivare än manuell repetition eller massiv övning (pluggande).</li>
+<li><strong>Sensmoralen:</strong> Låt vetenskapen diktera ditt repetitionsschema för dramatiskt förbättrat minne.</li>
+</ul>
+</li>
+<li><strong>Medveten övning: Målmedveten ansträngning för riktad förbättring</strong><ul>
+<li><strong>Vad det är:</strong> Myntat av psykologen Anders Ericsson, är medveten övning inte bara tanklös repetition. Det är en högstrukturerad aktivitet som utförs med det specifika målet att förbättra prestanda. Det innebär att fokusera på svagheter, pressa sig något utanför sin nuvarande komfortzon, få feedback och förfina sitt tillvägagångssätt.</li>
+<li><strong>Varför det överträffar enkel repetition:</strong> Att öva på det du redan är bra på känns bekvämt men leder till platåer. Medveten övning riktar in sig på dina fel och utmaningar, vilket leder till konkret kompetensutveckling. För språk innebär detta inte bara att upprepa fraser, utan att försöka använda grammatik du tycker är svår, eller öva uttal av utmanande ljud, och få korrigerande feedback.</li>
+<li><strong>Sensmoralen:</strong> Identifiera dina svagheter och öva med den uttryckliga avsikten att förbättra dem, och sök feedback längs vägen.</li>
+</ul>
+</li>
+<li><strong>Självprat: Din första och mest tillgängliga konversationspartner</strong><ul>
+<li><strong>Vad det är:</strong> Enkelt uttryckt är det att öva på att tala språket högt, även om du är ensam. Detta kan innebära att berätta om din dag, tänka igenom problem på målspråket eller öva dialoger.</li>
+<li><strong>Varför det bygger flyt:</strong> Att tala är en fysisk och mental färdighet. Självprat hjälper dig att vänja dig vid ljuden, rytmerna och meningsstrukturerna. Det överbryggar klyftan mellan att tänka <em>på</em> språket och att faktiskt <em>producera</em> det, vilket bygger muntlig smidighet och självförtroende utan pressen från en levande publik.</li>
+<li><strong>Sensmoralen:</strong> Börja tala från dag ett, även om det bara är för dig själv. Din hjärna behöver höra dig använda språket.</li>
+</ul>
+</li>
+<li><strong>Fokus: Den underskattade nyckeln till djupinlärning</strong><ul>
+<li><strong>Vad det är:</strong> I vår hyperdistraherade värld håller förmågan att ägna oavbrutna tidsblock åt en enda uppgift på att bli en superkraft. Fokuserad uppmärksamhet möjliggör "djupt arbete", där dina kognitiva förmågor maximeras.</li>
+<li><strong>Varför det är viktigt för språk:</strong> Språkinlärning kräver koncentration för att absorbera nya mönster, ordförråd och grammatik. Korta, distraherade studiepass är mycket mindre effektiva än uppslukande, fokuserade sessioner. Att växla mellan din inlärningsapp och sociala medier varannan minut fragmenterar din uppmärksamhet och hindrar djup bearbetning.</li>
+<li><strong>Sensmoralen:</strong> Skapa en störningsfri miljö och avsätt specifika tidsluckor för djup språkinlärning.</li>
+</ul>
+</li>
+</ol>
+<p>Hanna kände sig stärkt. Dessa principer var inte bara abstrakta teorier; de var handlingsbara strategier. Detta vetenskapliga ramverk gav en tydlig väg bort från de ineffektiva metoderna från förr. Utmaningen var dock hur man skulle väva samman alla dessa kraftfulla tekniker till en sammanhängande, hanterbar inlärningsrutin utan att behöva en doktorsexamen i kognitionsvetenskap för att orkestrera allt.</p>
+<h2>Lösningen framträder: Upptäckten av Soliloquy</h2>
+<p>Det var här <strong>Soliloquy</strong> kom in i Hannas berättelse. Medan hon forskade om verktyg som förkroppsligade dessa moderna inlärningsprinciper hittade Hanna Soliloquy. Det marknadsfördes inte som bara ännu en språkapp med en enorm ordlista eller en gnutta spelifiering. Istället verkade dess själva design vara en direkt tillämpning av aktiv inlärning, återkallande, SRS och det avgörande elementet av AI-driven talövning. Det utlovade ett holistiskt tillvägagångssätt, fokuserat på att bygga genuin kommunikativ kompetens – förmågan att faktiskt <em>använda</em> språket.</p>
+<p>Kunde detta vara det effektiva, vetenskapligt underbyggda språkinlärningsverktyget som Hanna, och otaliga andra, hade letat efter? Ett verktyg som äntligen kunde hjälpa till att lära sig <strong>engelska, polska, tyska, ryska, spanska, franska, italienska, portugisiska, ukrainska, norska, svenska, danska, nederländska, finska, grekiska eller tjeckiska</strong> inte bara snabbare, utan djupare och med varaktigt självförtroende?</p>
+<p>Nyfiken och hoppfull påbörjade Hanna Soliloquy-resan, valde polska för att ansluta till familjens arv, men siktade också på att vässa sin yrkesengelska och kanske äntligen ta itu med tyskan för den där drömresan.</p>
+<h3>Soliloquy i praktiken: Där vetenskapligt underbyggd strategi möter användarvänlig teknologi</h3>
+<p>Redan från början märkte Hanna att Soliloquy var annorlunda. Det handlade inte om att passivt konsumera innehåll; det handlade om att aktivt <em>göra</em>. Så här implementerade dess funktioner direkt dessa kraftfulla inlärningsprinciper, vilket skapade en upplevelse som kändes både intuitiv och otroligt effektiv, och skilde den från andra appar Hanna hade provat:</p>
+<ul>
+<li>
+<p><strong>Omtolkad talövning (Aktiv inlärning, Medveten övning, Självprat, AI-handledare):</strong> Funktionen <strong>Frågor</strong> blev hörnstenen i Hannas övning. Detta var inte den repetitiva, ofta onaturliga frasövningen som fanns på andra ställen. Soliloquy uppmanade Hanna att <em>tala</em>, att svara på varierade frågor och att konstruera svar. <strong>AI-feedbacken</strong> var omedelbar, specifik och konstruktiv. Den flaggade inte bara fel; den förklarade dem och erbjöd mer naturliga, användbara fraser. Detta var medveten övning när den var som bäst, vilket gjorde att Hanna kunde rikta in sig på uttal, grammatik och flyt i en stödjande miljö. Det kändes som att ha en tålmodig, personlig AI-handledare tillgänglig dygnet runt, som uppmuntrade den viktiga övningen av självprat och aktiv användning av språket, långt bortom enkla lucktexter eller uttalbedömningar av isolerade ord. Enbart denna funktion hjälpte Hanna att övervinna den talängslan som hade plågat tidigare försök.</p>
+</li>
+<li>
+<p><strong>Bygga ett kraftfullt, kontextuellt ordförråd (Minneskodning, Kontextuell inlärning, Aktivt återkallande):</strong> <strong>Lexikonet</strong> med sina 7 000+ vanligaste ord var en spelomvandlare. Många appar skryter med stora ordlistor, men Soliloquys tillvägagångssätt var smartare. Varje ord var inte bara en översättning; det kom med en tydlig <strong>mening som gav sammanhang</strong>, och visade <em>hur</em> ordet faktiskt används av modersmålstalare. Detta är avgörande för kontextuell inlärning och för att komma bortom styltigt läroboksspråk. Men den verkliga magin för minneskodning var inkluderingen av möjligheten att lägga till personliga <strong>minnesregler</strong> och att skriva en mening för ett givet ord. Dessa smarta minneshjälpmedel förvandlade den ofta tråkiga uppgiften att tillägna sig ordförråd till något engagerande och överraskande effektivt. Knepiga ord, som tidigare slank undan, hade nu krokar som fick dem att fastna. Detta fokus på djup kodning, snarare än bara utantillrepetition, innebar att Hanna inte bara memorerade för kort sikt utan byggde en varaktig mental ordbok. Det var långt ifrån att bara bläddra igenom oändliga, kontextfria digitala kort.</p>
+</li>
+<li>
+<p><strong>Intelligent minnesförbättring med flashcards (System med tidsfördelad repetition, Aktivt återkallande):</strong> Hanna hade stött på digitala flashcards tidigare, men Soliloquys <strong>Flashcards</strong> var superladdade med ett äkta <strong>System med tidsfördelad repetition (SRS)</strong>. Denna intelligenta algoritm lärde sig Hannas takt och schemalade repetitioner för ord och fraser vid det vetenskapligt optimala ögonblicket – precis innan Hanna höll på att glömma dem. Detta säkerställde att studietiden var otroligt effektiv, fokuserad på material som behövde förstärkas, snarare än att slösa tid på redan bemästrade objekt eller låta inlärda objekt förfalla på grund av brist på snabb repetition. Varje flashcardsession var en aktiv återkallningsövning som stärkte minnesspåren med varje framgångsrik hämtning. Detta systematiska tillvägagångssätt kändes milsvitt effektivare än appar som förlitade sig på grundläggande repetitionsmönster eller användarhanterade flashcardslekar.</p>
+</li>
+<li>
+<p><strong>Kristallklar förståelse och uttal (Ordbok &amp; Text-till-tal):</strong> Inga fler gissningar eller tvetydigheter. Närhelst Hanna stötte på ett obekant ord, antingen inom Soliloquy eller någon annanstans, var den integrerade <strong>Ordboken</strong> ett klick bort. Den gav inte bara betydelser och definitioner utan också tydliga ljuduttal med inbyggd TTS. Funktionen <strong>Text-till-tal</strong> utökade denna fördel till hela meningar, vilket gjorde att Hanna kunde höra språkets flöde. Detta var ovärderligt för att finslipa hörförståelsen och fullända uttalet, vilket skapade en mycket rikare auditiv inlärningsupplevelse än statisk text.</p>
+</li>
+<li>
+<p><strong>Framtiden är engagerande: Uppslukande läsning med "Berättelser" (Kommande funktion):</strong> Till spänningen lade Hanna till information om den kommande funktionen <strong>Berättelser</strong>. Denna lovade att ta aktiv inlärning och kontextuell ordförrådstillägnelse till en ny nivå. Utsikten att läsa engagerande berättelser, designade för språkinlärare, och aktivt arbeta med texten för att förbättra förståelsen, var otroligt tilltalande. Det signalerade Soliloquys engagemang för ett väl avrundat tillvägagångssätt, som rörde sig bortom isolerade ord och övningar till holistisk språkinlevelse.</p>
+</li>
+</ul>
+<h2>Transformationen: Från tyst student till självsäker kommunikatör</h2>
+<p>Veckorna och månaderna med Soliloquy var omvälvande. Den konsekventa tillämpningen av aktiv inlärning, återkallande, SRS och medveten talövning började ge påtagliga resultat. Hanna <em>studerade</em> inte bara polska längre; Hanna <em>använde</em> det med ökande självförtroende och noggrannhet.</p>
+<p>För Hanna, studenten, innebar detta att briljera på presentationer och känna sig förberedd för ett utbytesprogram. För Hanna, den livslånga läraren, innebar det glädjen att förstå polska filmer utan undertexter och planera det där italienska äventyret med genuin spänning. För Hanna, migranten, innebar det att navigera i dagliga ärenden, förstå grannar och känna en sann känsla av tillhörighet i ett nytt land, mycket snabbare än väntat.</p>
+<p>De fokuserade, vetenskapligt underbyggda sessionerna med Soliloquy var effektiva. Tiden som ägnades åt inlärning kändes produktiv, inte bortkastad. Drömmen om att flytande beställa <em>pierogi</em> i Krakow, diskutera ett projekt med en tysk klient, eller helt enkelt dela ett innerligt samtal med familjemedlemmar på deras modersmål var inte längre en avlägsen fantasi. Det höll på att bli en daglig verklighet. Detta handlade inte om att hitta en magisk genväg för att "lära sig ett språk på 7 dagar", utan om att upptäcka att <strong>snabb språkinlärning</strong> är absolut möjlig när man använder <strong>effektiva språkinlärningsmetoder</strong>.</p>
+<h3>Varför Soliloquys vetenskapligt underbyggda tillvägagångssätt låser upp din språkpotential (och är annorlunda)</h3>
+<p>Hemligheten bakom Hannas accelererade framgång – och den framgång du kan uppnå – ligger i att anpassa dina studiemetoder till de grundläggande principerna för hur din hjärna tillägnar sig och behåller språk. Soliloquy sticker ut eftersom det systematiskt integrerar dessa principer:</p>
+<ul>
+<li><strong>Bortom spelifiering till genuint engagemang:</strong> Medan vissa appar starkt förlitar sig på spelliknande mekanismer som ibland kan kännas ytliga, fokuserar Soliloquy på <strong>aktiv inlärning och aktivt återkallande</strong> som leder till djupt, meningsfullt engagemang med språket. Belöningen är genuina framsteg, inte bara poäng eller serier.</li>
+<li><strong>Tala från dag ett, med verklig feedback:</strong> Många plattformar erbjuder begränsad talövning, eller ingen alls utöver grundläggande uttal. Soliloquys <strong>AI-drivna Frågor-funktion</strong> ger den medvetna övning och personliga feedback som är avgörande för att utveckla verkliga konversationsfärdigheter, vilket vida överstiger enkla repetitionsövningar.</li>
+<li><strong>Ordförråd som fastnar och är meningsfullt:</strong> Glöm utantillinlärning av isolerade ord utan sammanhang, en vanlig fallgrop. Soliloquys <strong>Lexikon med kontextuella meningar</strong> och möjligheten att lägga till personliga minnesregler säkerställer djup minneskodning, vilket gör ordförrådstillägnelsen effektiv och praktisk. Du lär dig ord du faktiskt kommer att använda, och du lär dig dem på ett sätt som gör att de stannar kvar hos dig.</li>
+<li><strong>Optimerad inlärning med äkta SRS:</strong> Soliloquys <strong>System med tidsfördelad repetition</strong> är inte bara en fin term; det är en vetenskapligt validerad metod för att maximera långsiktig minnesbibehållning, vilket säkerställer att ditt hårda arbete lönar sig mer effektivt än med appar med rudimentära repetitionsystem.</li>
+<li><strong>En holistisk verktygslåda för allsidig flyt:</strong> Soliloquy är inte bara en flashcardsapp, eller bara en talapp. Det är en omfattande verktygslåda som kombinerar talövning, ordförrådsbyggande, SRS, en ordbok och text-till-tal (med Berättelser på väg) för att hantera alla aspekter av språkinlärning.</li>
+</ul>
+<p>Genom att utnyttja dessa vetenskapligt beprövade metoder, samlade i en intuitiv och stödjande app, lär du dig inte bara; du lär dig smartare, snabbare och bygger en grund för livslång flyt. En AI-handledare som Soliloquy gör denna kraftfulla, effektiva språkinlärningsmetodik tillgänglig för alla, oavsett om du är student som siktar på akademisk framgång, yrkesverksam som behöver kommunicera globalt, eller en hobbyist som följer en passion.</p>
+<h3>Är du redo att sluta drömma och börja tala med självförtroende?</h3>
+<p>Om du är trött på det långsamma, frustrerande slitet med föråldrade språkinlärningsmetoder, om du har känt dig sviken av appar som lovade mycket men levererade lite när det gäller verklig talförmåga, är det dags för en förändring. Det är dags att omfamna en snabbare, effektivare väg till flytande språk.</p>
+<p>Sluta bara önska att du kunde tala engelska, polska, tyska, franska, spanska eller något av de andra 16 språken som erbjuds av Soliloquy. Verktygen och vetenskapen finns här för att göra dina språkambitioner till verklighet.</p>
+<p><strong>Ladda ner Soliloquy idag. Upplev den djupa skillnaden som ett inlärningssystem byggt på aktiv inlärning, aktivt återkallande, tidsfördelad repetition och AI-driven talövning kan göra. Din accelererade resa till självsäker kommunikation börjar nu!</strong></p>
+  </article>
+
+  <div class="container mx-auto px-6 py-16 text-center">
+    <p class="text-xl md:text-2xl font-semibold text-brand-primary mb-10 max-w-2xl mx-auto">
+      Delta i aktiv språkinlärning för att få resultat snabbare!
+    </p>
+    <a href="#cta-app-stores" class="bg-brand-secondary hover:bg-brand-secondary-darker text-black font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg">
+      Ladda ner appen
+    </a>
+  </div>
+</section>
+
 <section id="cta-app-stores" class="py-16 md:py-24 bg-brand-primary text-white">
   <div class="container mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">
@@ -461,14 +596,12 @@
     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
       <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" aria-label="Download on the App Store" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">Ladda ner i</p>
-          <p class="text-xl font-semibold">App Store</p>
+          <img src="https://soliloquy.fun/assets/images/app-store-badge.svg" alt="Download on the App Store Image" width="150" height="auto" />
         </div>
       </a>
       <a href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" aria-label="Get it on Google Play" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">HÄMTA PÅ</p>
-          <p class="text-xl font-semibold">Google Play</p>
+          <img src="https://soliloquy.fun/assets/images/google-play-badge.svg" alt="Get it on Google Play Image" width="150" height="auto" />
         </div>
       </a>
     </div>

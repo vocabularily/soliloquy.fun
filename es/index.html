@@ -39,7 +39,7 @@
   <link rel="alternate" hreflang="cs" href="https://soliloquy.fun/cs/" />
 
   <link rel="icon" href="https://soliloquy.fun/assets/images/ico.svg" type="image/png">
-  <link href="https://soliloquy.fun/output.css" rel="stylesheet">
+  <link href="../output.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -179,38 +179,54 @@
           </svg>
         </button>
         <div id="languageSwitcherDropdown" class="language-switcher-dropdown absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20 hidden max-h-60 overflow-y-auto">
-          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">English
-                                                                                                                                                                    (EN)</a>
-          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Polski
-                                                                                                                                                                       (PL)</a>
-          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Deutsch
-                                                                                                                                                                       (DE)</a>
-          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Русский
-                                                                                                                                                                       (RU)</a>
-          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary active">Español
-                                                                                                                                                                       (ES)</a>
-          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Français
-                                                                                                                                                                       (FR)</a>
-          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Italiano
-                                                                                                                                                                       (IT)</a>
-          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Português
-                                                                                                                                                                       (PT)</a>
-          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Українська
-                                                                                                                                                                       (UK)</a>
-          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Norsk
-                                                                                                                                                                       (NO)</a>
-          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Svenska
-                                                                                                                                                                       (SV)</a>
-          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Dansk
-                                                                                                                                                                       (DA)</a>
-          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Nederlands
-                                                                                                                                                                       (NL)</a>
-          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Suomi
-                                                                                                                                                                       (FI)</a>
-          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Ελληνικά
-                                                                                                                                                                       (EL)</a>
-          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary ">Čeština
-                                                                                                                                                                       (CS)</a>
+          <a href="https://soliloquy.fun/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            English (EN)
+          </a>
+          <a href="https://soliloquy.fun/pl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Polski (PL)
+          </a>
+          <a href="https://soliloquy.fun/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Deutsch (DE)
+          </a>
+          <a href="https://soliloquy.fun/ru/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Русский (RU)
+          </a>
+          <a href="https://soliloquy.fun/es/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Español (ES)
+          </a>
+          <a href="https://soliloquy.fun/fr/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Français (FR)
+          </a>
+          <a href="https://soliloquy.fun/it/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Italiano (IT)
+          </a>
+          <a href="https://soliloquy.fun/pt/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Português (PT)
+          </a>
+          <a href="https://soliloquy.fun/uk/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Українська (UK)
+          </a>
+          <a href="https://soliloquy.fun/no/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Norsk (NO)
+          </a>
+          <a href="https://soliloquy.fun/sv/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Svenska (SV)
+          </a>
+          <a href="https://soliloquy.fun/da/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Dansk (DA)
+          </a>
+          <a href="https://soliloquy.fun/nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Nederlands (NL)
+          </a>
+          <a href="https://soliloquy.fun/fi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Suomi (FI)
+          </a>
+          <a href="https://soliloquy.fun/el/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Ελληνικά (EL)
+          </a>
+          <a href="https://soliloquy.fun/cs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-primary">
+            Čeština (CS)
+          </a>
         </div>
       </div>
     </nav>
@@ -265,7 +281,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Léxico Inteligente (Más de 7k Palabras)</h3>
-        <p class="text-gray-600 text-center text-sm">Domina las palabras más comunes con frases de ejemplo y mnemotecnias que las hacen inolvidables.</p>
+        <p class="text-gray-600 text-center text-sm">Domina las palabras más comunes con frases de ejemplo y añade tus propias reglas mnemotécnicas para que se fijen.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-emerald-100 text-emerald-600 rounded-full mb-5 mx-auto">
@@ -275,6 +291,15 @@
         </div>
         <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Tarjetas de Memoria SRS</h3>
         <p class="text-gray-600 text-center text-sm">Optimiza la retención de memoria con nuestro Sistema de Repetición Espaciada. Aprende de manera más inteligente, no más difícil.</p>
+      </div>
+      <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
+        <div class="flex items-center justify-center h-16 w-16 bg-cyan-100 text-cyan-600 rounded-full mb-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Leer Historias</h3>
+        <p class="text-gray-600 text-center text-sm">Mejora tu comprensión leyendo activamente historias a tu nivel.</p>
       </div>
       <div class="feature-card bg-gray-50 p-6 rounded-xl shadow-lg">
         <div class="flex items-center justify-center h-16 w-16 bg-amber-100 text-amber-600 rounded-full mb-5 mx-auto">
@@ -339,7 +364,7 @@
           </div>
           <h3 class="text-2xl font-semibold text-gray-900">Adquisición de Vocabulario Contextual</h3>
         </div>
-        <p class="text-gray-600 leading-relaxed">Nuestro Léxico Inteligente presenta más de 7,000 palabras de alta frecuencia dentro de frases de ejemplo de la vida real. Se proporcionan mnemotecnias para crear fuertes vínculos mentales, asegurando que aprendas palabras en contexto para una mejor comprensión y recuerdo, no solo definiciones aisladas.</p>
+        <p class="text-gray-600 leading-relaxed">Nuestro Léxico Inteligente presenta más de 7.000 palabras de alta frecuencia con frases de ejemplo de la vida real. Puedes añadir reglas mnemotécnicas personales para crear fuertes conexiones mentales, asegurando que aprendes las palabras en contexto para una mejor comprensión y recuerdo. Al escribir tus propias frases para palabras determinadas, fortalecerás aún más la memoria.</p>
       </div>
 
       <div class="methodology-card bg-white p-8 rounded-xl shadow-lg">
@@ -408,7 +433,7 @@
   </div>
 </section>
 
-<section id="testimonials" class="py-16 md:py-24 bg-white">
+<section id="testimonials" class="py-16 md:py-24 bg-gray-50">
   <div class="container mx-auto px-6">
     <div class="text-center mb-12 md:mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -450,6 +475,116 @@
   </div>
 </section>
 
+<section id="post" class="py-16 md:py-24 bg-gray-100">
+  <article class="prose lg:prose-xl mx-auto p-4">
+    <h2><strong>Desbloquead la fluidez más rápido: La revolución en el aprendizaje de idiomas respaldada por la ciencia</strong></h2>
+<p>¿Alguna vez os habéis topado con ese frustrante muro en vuestro viaje de aprendizaje de idiomas? Habéis estudiado diligentemente reglas gramaticales, memorizado listas de vocabulario, quizás incluso habéis probado aplicaciones populares, solo para encontraros sin palabras en conversaciones reales u olvidando palabras tan rápido como las aprendéis. Ese sueño de charlar con confianza en español, moverse por Berlín con un alemán fluido o simplemente pedir un café en francés sin una ola de pánico, parece fuera de vuestro alcance.</p>
+<p>Si esto os suena, no estáis solos. Los métodos tradicionales, a menudo pasivos, de aprendizaje de idiomas pueden ser lentos, ineficientes y, francamente, desalentadores. Pero, ¿y si hubiera una manera de aprender idiomas <strong>significativamente más rápido y de forma más efectiva</strong>? ¿Y si la clave no fuera solo <em>más</em> esfuerzo, sino un esfuerzo <em>más inteligente</em>, basado en la ciencia cognitiva probada?</p>
+<p>La fantástica noticia es que ese camino existe. Es hora de superar las técnicas obsoletas y abrazar una revolución en la adquisición de idiomas, impulsada por la ciencia y la tecnología de vanguardia. Preparaos para descubrir cómo lograr un progreso real y rápido, y cómo una aplicación innovadora, <strong>Soliloquy</strong>, está diseñada para hacer este viaje fluido y exitoso.</p>
+<h2>Conoced a Hanna: Una historia universal de obstáculos y aspiraciones lingüísticas</h2>
+<p>Hanna era apasionada, dedicada y lo había intentado casi todo. Invirtió incontables horas en libros de texto llenos de complejas explicaciones gramaticales que parecían imposibles de aplicar espontáneamente. Las aplicaciones de vocabulario ofrecían un sinfín de tarjetas de memoria, pero las palabras a menudo se sentían desconectadas del uso en el mundo real, lo que llevaba a lo que Hanna llamaba "fluidez de reconocimiento": excelente para los exámenes de opción múltiple, terrible para construir una oración. Algunas aplicaciones populares parecían más juegos, ofreciendo recompensas superficiales por repetir frases peculiares y poco naturales, dejando a Hanna preguntándose si esto realmente estaba desarrollando habilidades de comunicación prácticas. El progreso era dolorosamente lento, lo que generaba una frustración creciente y el temido pensamiento: "Quizás simplemente no se me dan bien los idiomas".</p>
+<p>Hanna anhelaba algo más que solo saber <em>sobre</em> un idioma; Hanna quería <em>usarlo</em>, conectar, comprender y ser comprendida. "Tiene que haber una forma más eficiente de cerrar la brecha entre el conocimiento pasivo y el habla activa y segura", reflexionó Hanna. No se trataba solo de aprender palabras; se trataba de desbloquear un nuevo mundo.</p>
+<h3>La epifanía: Descifrando el código del cerebro para un aprendizaje rápido</h3>
+<p>Una tarde, impulsada por una mezcla de determinación y desesperación, Hanna profundizó en la investigación sobre la ciencia cognitiva y el aprendizaje. Comenzaron a surgir una serie de principios interconectados, formando una poderosa hoja de ruta para la adquisición efectiva: el <strong>aprendizaje activo</strong>, la <strong>recuperación activa</strong>, la <strong>codificación profunda de la memoria</strong>, el <strong>sistema de repetición espaciada (SRS)</strong>, la <strong>práctica deliberada</strong>, el poder a menudo subestimado del <strong>habla autodirigida</strong> y el papel crucial de la <strong>atención enfocada</strong>.</p>
+<p>Estos no eran solo términos de moda; eran técnicas validadas científicamente que explican cómo nuestros cerebros están óptimamente programados para aprender y retener información compleja, como un nuevo idioma. Analicémoslos, porque comprenderlos es el primer paso para transformar vuestro aprendizaje:</p>
+<ol>
+<li><strong>Aprendizaje activo: La mente comprometida gana</strong><ul>
+<li><strong>Qué es:</strong> El aprendizaje activo es el polo opuesto a sentarse pasivamente en una clase, releer apuntes o simplemente escuchar audio. Exige vuestra participación mental directa. Estáis lidiando con el material, cuestionándolo, aplicándolo y haciéndolo vuestro.</li>
+<li><strong>Por qué es crucial para los idiomas:</strong> Simplemente exponerse a un idioma no es suficiente. Necesitáis <em>hacer</em> cosas con él: intentar formar frases (incluso imperfectamente), responder preguntas, tratar de comprender los patrones subyacentes y usarlo en contexto. Esto crea vías neuronales más fuertes de lo que el consumo pasivo jamás podría lograr. Muchos métodos tradicionales, e incluso algunas aplicaciones que se centran en la simple coincidencia o repetición, pueden promover inadvertidamente el aprendizaje pasivo.</li>
+<li><strong>La conclusión:</strong> Dejad de ser espectadores en vuestro aprendizaje; convertíos en participantes activos.</li>
+</ul>
+</li>
+<li><strong>Recuperación activa: Pescando información, no solo revisándola</strong><ul>
+<li><strong>Qué es:</strong> La recuperación activa (también conocida como práctica de recuperación) es el acto de intentar deliberadamente recuperar información de vuestra memoria. En lugar de mirar la respuesta, obligáis a vuestro cerebro a encontrarla. Pensad en autoevaluarse, tratar de recordar el significado de una palabra antes de voltear la tarjeta de memoria o resumir un concepto con vuestras propias palabras.</li>
+<li><strong>Por qué es un superpoder de aprendizaje:</strong> Cada vez que recuperáis con éxito una pieza de información, esa memoria se vuelve más fuerte y más fácil de acceder en el futuro. Es como fortalecer un músculo. Releer, por el contrario, crea una ilusión de competencia sin la misma codificación profunda.</li>
+<li><strong>La conclusión:</strong> Poneos a prueba constantemente. El esfuerzo de recordar es donde ocurre el verdadero aprendizaje.</li>
+</ul>
+</li>
+<li><strong>Codificación de la memoria: Haciendo que el nuevo conocimiento realmente se fije</strong><ul>
+<li><strong>Qué es:</strong> La codificación de la memoria es el proceso de convertir nueva información en una construcción que se puede almacenar en el cerebro. Para un almacenamiento efectivo a largo plazo, esta codificación debe ser profunda y significativa. Esto implica conectar nueva información con conocimientos existentes, crear imágenes mentales vívidas o comprender el contexto.</li>
+<li><strong>Por qué es vital para el vocabulario:</strong> Aprender vocabulario no se trata solo de la memorización rutinaria de una palabra y su traducción. Se trata de comprender sus matices, verla en frases de ejemplo e, idealmente, crear un gancho memorable para ella, como un dispositivo mnemotécnico o una conexión personal. Las aplicaciones que solo presentan listas de palabras sin un contexto rico o ayudas para la memoria a menudo conducen a una codificación superficial.</li>
+<li><strong>La conclusión:</strong> No os limitéis a memorizar; cread conexiones ricas y significativas para nuevas palabras y conceptos gramaticales.</li>
+</ul>
+</li>
+<li><strong>Sistema de repetición espaciada (SRS): La forma más inteligente de vencer el olvido</strong><ul>
+<li><strong>Qué es:</strong> Basado en la "curva del olvido" (que muestra que olvidamos la información rápidamente al principio, luego más lentamente), el SRS es un algoritmo inteligente que programa repasos del material aprendido a intervalos crecientes. Repasáis la información justo cuando estáis a punto de olvidarla.</li>
+<li><strong>Por qué es revolucionario para la retención:</strong> En lugar de perder el tiempo estudiando en exceso lo que ya sabéis, u olvidar lo que habéis aprendido porque no lo repasasteis en el momento adecuado, el SRS optimiza vuestro tiempo de estudio para una máxima retención a largo plazo. Es mucho más eficiente que el repaso manual o la práctica masiva (empollar).</li>
+<li><strong>La conclusión:</strong> Dejad que la ciencia dicte vuestro horario de repaso para mejorar drásticamente la memoria.</li>
+</ul>
+</li>
+<li><strong>Práctica deliberada: Esfuerzo intencionado para una mejora específica</strong><ul>
+<li><strong>Qué es:</strong> Acuñada por el psicólogo Anders Ericsson, la práctica deliberada no es solo una repetición sin sentido. Es una actividad altamente estructurada realizada con el objetivo específico de mejorar el rendimiento. Implica centrarse en las áreas de debilidad, superar ligeramente vuestra zona de confort actual, recibir retroalimentación y refinar vuestro enfoque.</li>
+<li><strong>Por qué supera a la simple repetición:</strong> Practicar en lo que ya sois buenos resulta cómodo pero conduce a estancamientos. La práctica deliberada se enfoca en vuestros errores y desafíos, lo que lleva a un desarrollo tangible de habilidades. Para el lenguaje, esto significa no solo repetir frases, sino intentar usar la gramática que os resulta difícil, o practicar la pronunciación de sonidos desafiantes y obtener retroalimentación correctiva.</li>
+<li><strong>La conclusión:</strong> Identificad vuestras debilidades y practicad con la intención explícita de mejorarlas, buscando retroalimentación en el camino.</li>
+</ul>
+</li>
+<li><strong>Habla autodirigida: Vuestro primer y más disponible compañero de conversación</strong><ul>
+<li><strong>Qué es:</strong> En pocas palabras, es practicar hablar el idioma en voz alta, incluso si estáis solos. Esto podría implicar narrar vuestro día, pensar en problemas en el idioma de destino o practicar diálogos.</li>
+<li><strong>Por qué desarrolla la fluidez:</strong> Hablar es una habilidad física y mental. El habla autodirigida os ayuda a acostumbraros a los sonidos, ritmos y estructuras de las frases. Cierra la brecha entre pensar <em>sobre</em> el idioma y realmente <em>producirlo</em>, desarrollando agilidad oral y confianza sin la presión de una audiencia en vivo.</li>
+<li><strong>La conclusión:</strong> Empezad a hablar desde el primer día, incluso si es solo con vosotros mismos. Vuestro cerebro necesita oíros usando el idioma.</li>
+</ul>
+</li>
+<li><strong>Enfoque: La clave subestimada para el aprendizaje profundo</strong><ul>
+<li><strong>Qué es:</strong> En nuestro mundo hiperdistraído, la capacidad de dedicar bloques de tiempo ininterrumpido a una sola tarea se está convirtiendo en un superpoder. La atención enfocada permite el "trabajo profundo", donde vuestras capacidades cognitivas se maximizan.</li>
+<li><strong>Por qué es importante para el idioma:</strong> El aprendizaje de idiomas requiere concentración para absorber nuevos patrones, vocabulario y gramática. Ráfagas cortas y distraídas de estudio son mucho menos efectivas que las sesiones inmersivas y enfocadas. Cambiar entre vuestra aplicación de aprendizaje y las redes sociales cada pocos minutos fragmenta vuestra atención y dificulta el procesamiento profundo.</li>
+<li><strong>La conclusión:</strong> Cread un entorno libre de distracciones y dedicad franjas horarias específicas para el aprendizaje profundo de idiomas.</li>
+</ul>
+</li>
+</ol>
+<p>Hanna se sintió revitalizada. Estos principios no eran solo teorías abstractas; eran estrategias procesables. Este marco científico proporcionaba un camino claro lejos de los métodos ineficientes del pasado. El desafío, sin embargo, era cómo entretejer todas estas potentes técnicas en una rutina de aprendizaje cohesiva y manejable sin necesitar un doctorado en ciencia cognitiva para orquestarlo todo.</p>
+<h2>Surge la solución: Descubriendo Soliloquy</h2>
+<p>Aquí es donde <strong>Soliloquy</strong> entró en la historia de Hanna. Mientras investigaba herramientas que encarnaran estos principios modernos de aprendizaje, Hanna encontró Soliloquy. No se promocionaba como otra aplicación de idiomas con una vasta lista de palabras o una pizca de gamificación. En cambio, su diseño mismo parecía ser una aplicación directa del aprendizaje activo, la recuperación, el SRS y el elemento crucial de la práctica del habla impulsada por IA. Prometía un enfoque holístico, centrado en desarrollar una competencia comunicativa genuina: la capacidad de <em>usar</em> realmente el idioma.</p>
+<p>¿Podría ser esta la herramienta de aprendizaje de idiomas eficiente y respaldada por la ciencia que Hanna, y muchos otros, habían estado buscando? ¿Una herramienta que finalmente podría ayudar a aprender <strong>inglés, polaco, alemán, ruso, español, francés, italiano, portugués, ucraniano, noruego, sueco, danés, neerlandés, finlandés, griego o checo</strong> no solo más rápido, sino más profundamente y con una confianza duradera?</p>
+<p>Intrigada y esperanzada, Hanna se embarcó en el viaje de Soliloquy, eligiendo el polaco para conectar con la herencia familiar, pero también considerándolo para mejorar su inglés profesional y quizás finalmente abordar el alemán para ese viaje soñado.</p>
+<h3>Soliloquy en acción: Donde la estrategia respaldada por la ciencia se encuentra con la tecnología fácil de usar</h3>
+<p>Desde el principio, Hanna notó que Soliloquy era diferente. No se trataba de consumir contenido pasivamente; se trataba de <em>hacer</em> activamente. Así es como sus características implementaban directamente esos poderosos principios de aprendizaje, creando una experiencia que se sentía tanto intuitiva como increíblemente efectiva, distinguiéndola de otras aplicaciones que Hanna había probado:</p>
+<ul>
+<li>
+<p><strong>Práctica del habla reinventada (Aprendizaje activo, Práctica deliberada, Habla autodirigida, Tutor de IA):</strong> La función de <strong>Preguntas</strong> se convirtió en la piedra angular de la práctica de Hanna. No se trataba de la repetición de frases, a menudo antinatural, que se encuentra en otros lugares. Soliloquy incitaba a Hanna a <em>hablar</em>, a responder preguntas variadas y a construir respuestas. La <strong>retroalimentación de la IA</strong> era inmediata, específica y constructiva. No solo señalaba errores; los explicaba y ofrecía frases más naturales y útiles. Esto era práctica deliberada en su máxima expresión, permitiendo a Hanna enfocarse en la pronunciación, la gramática y la fluidez en un entorno de apoyo. Se sentía como tener un tutor de IA paciente y personal disponible las 24 horas del día, los 7 días de la semana, fomentando la práctica vital del habla autodirigida y el uso activo del idioma, mucho más allá de simples ejercicios de rellenar espacios en blanco o calificaciones de pronunciación en palabras aisladas. Esta función por sí sola ayudó a Hanna a superar la ansiedad al hablar que había plagado intentos anteriores.</p>
+</li>
+<li>
+<p><strong>Construyendo un vocabulario potente y contextual (Codificación de la memoria, Aprendizaje contextual, Recuperación activa):</strong> El <strong>Léxico</strong> con sus más de 7.000 palabras más utilizadas fue un cambio de juego. Muchas aplicaciones presumen de grandes listas de vocabulario, pero el enfoque de Soliloquy era más inteligente. Cada palabra no era solo una traducción; venía con una <strong>frase clara que proporcionaba contexto</strong>, mostrando <em>cómo</em> la palabra es realmente utilizada por hablantes nativos. Esto es crucial para el aprendizaje contextual y para ir más allá del lenguaje rígido y de libro de texto. Pero la verdadera magia para la codificación de la memoria fue la inclusión de la capacidad de agregar <strong>mnemotecnias</strong> personales y de escribir una frase para una palabra dada. Estas inteligentes ayudas para la memoria transformaron la tarea, a menudo tediosa, de adquisición de vocabulario en algo atractivo y sorprendentemente efectivo. Las palabras difíciles, que antes se escapaban, ahora tenían ganchos que las hacían quedarse. Este enfoque en la codificación profunda, en lugar de la simple repetición rutinaria, significaba que Hanna no solo estaba memorizando a corto plazo, sino construyendo un diccionario mental duradero. Estaba muy lejos de simplemente hojear un sinfín de tarjetas digitales sin contexto.</p>
+</li>
+<li>
+<p><strong>Mejora inteligente de la memoria con tarjetas de memoria (Sistema de repetición espaciada, Recuperación activa):</strong> Hanna ya había encontrado tarjetas de memoria digitales antes, pero las <strong>Tarjetas de memoria</strong> de Soliloquy estaban supercargadas con un verdadero <strong>Sistema de Repetición Espaciada (SRS)</strong>. Este algoritmo inteligente aprendía el ritmo de Hanna, programando repasos de palabras y frases en el momento científicamente óptimo, justo antes de que Hanna estuviera a punto de olvidarlas. Esto aseguraba que el tiempo de estudio fuera increíblemente eficiente, centrado en el material que necesitaba refuerzo, en lugar de perder tiempo en elementos ya dominados o dejar que los elementos aprendidos se deterioraran por falta de repaso oportuno. Cada sesión de tarjetas de memoria era un ejercicio de recuperación activa, fortaleciendo las huellas de memoria con cada recuperación exitosa. Este enfoque sistemático se sintió mucho más efectivo que las aplicaciones que dependen de patrones de revisión básicos o de mazos de tarjetas de memoria gestionados por el usuario.</p>
+</li>
+<li>
+<p><strong>Comprensión y pronunciación nítidas (Diccionario y Texto a Voz):</strong> No más adivinanzas ni ambigüedades. Siempre que Hanna encontraba una palabra desconocida, ya fuera dentro de Soliloquy o en otro lugar, el <strong>Diccionario</strong> integrado estaba a un clic de distancia. Proporcionaba no solo significados y definiciones, sino también pronunciaciones de audio claras mediante TTS incorporado. La funcionalidad de <strong>Texto a Voz</strong> extendía este beneficio a frases enteras, permitiendo a Hanna escuchar el flujo del idioma. Esto fue invaluable para perfeccionar la comprensión auditiva y la pronunciación, creando una experiencia de aprendizaje auditivo mucho más rica que el texto estático.</p>
+</li>
+<li>
+<p><strong>El futuro es atractivo: Lectura inmersiva con "Historias" (Próxima función):</strong> Sumándose a la emoción, Hanna se enteró de la próxima función de <strong>Historias</strong>. Esta prometía llevar el aprendizaje activo y la adquisición de vocabulario contextual a un nuevo nivel. La perspectiva de leer narrativas atractivas, diseñadas para estudiantes de idiomas, y trabajar activamente con el texto para mejorar la comprensión, era increíblemente atractiva. Señalaba el compromiso de Soliloquy con un enfoque integral, yendo más allá de las palabras y ejercicios aislados hacia una inmersión lingüística holística.</p>
+</li>
+</ul>
+<h2>La transformación: De estudiante silenciosa a comunicadora segura</h2>
+<p>Las semanas y meses con Soliloquy fueron transformadores. La aplicación constante del aprendizaje activo, la recuperación, el SRS y la práctica deliberada del habla comenzaron a producir resultados tangibles. Hanna ya no solo <em>estudiaba</em> polaco; Hanna lo <em>usaba</em> con creciente confianza y precisión.</p>
+<p>Para Hanna, la estudiante, esto significó destacar en presentaciones y sentirse preparada para un programa de intercambio. Para Hanna, la aprendiz de por vida, significó la alegría de entender películas polacas sin subtítulos y planificar esa aventura italiana con genuina emoción. Para Hanna, la migrante, significó realizar recados diarios, entender a los vecinos y sentir un verdadero sentido de pertenencia en un nuevo país, mucho más rápido de lo previsto.</p>
+<p>Las sesiones enfocadas y respaldadas científicamente con Soliloquy fueron eficientes. El tiempo dedicado al aprendizaje se sintió productivo, no desperdiciado. El sueño de pedir <em>pierogi</em> con fluidez en Cracovia, discutir un proyecto con un cliente alemán o simplemente compartir una conversación sincera con miembros de la familia en su lengua materna ya no era una fantasía lejana. Se estaba convirtiendo en una realidad diaria. No se trataba de encontrar un atajo mágico para "aprender un idioma en 7 días", sino de descubrir que el <strong>aprendizaje rápido de idiomas</strong> es absolutamente alcanzable cuando se utilizan métodos de <strong>aprendizaje de idiomas eficientes</strong>.</p>
+<h3>Por qué el enfoque respaldado por la ciencia de Soliloquy desbloquea vuestro potencial lingüístico (y es diferente)</h3>
+<p>El secreto del éxito acelerado de Hanna —y el éxito que vosotros podéis lograr— radica en alinear vuestros métodos de estudio con los principios fundamentales de cómo vuestro cerebro adquiere y retiene el lenguaje. Soliloquy se destaca porque integra sistemáticamente estos principios:</p>
+<ul>
+<li><strong>Más allá de la gamificación hacia un compromiso genuino:</strong> Mientras que algunas aplicaciones dependen en gran medida de mecánicas similares a juegos que a veces pueden parecer superficiales, Soliloquy se centra en el <strong>aprendizaje activo y la recuperación activa</strong> que conducen a un compromiso profundo y significativo con el idioma. La recompensa es un progreso genuino, no solo puntos o rachas.</li>
+<li><strong>Hablar desde el primer día, con retroalimentación real:</strong> Muchas plataformas ofrecen una práctica limitada del habla, o ninguna más allá de la pronunciación básica. La <strong>función de Preguntas impulsada por IA</strong> de Soliloquy proporciona la práctica deliberada y la retroalimentación personalizada cruciales para desarrollar habilidades de conversación reales, superando con creces los simples ejercicios de repetición.</li>
+<li><strong>Vocabulario que se fija y tiene sentido:</strong> Olvidaos de la memorización rutinaria de palabras aisladas sin contexto, una trampa común. El <strong>Léxico de Soliloquy con frases contextuales</strong> y la capacidad de agregar mnemotecnias personales aseguran una codificación profunda de la memoria, haciendo que la adquisición de vocabulario sea eficiente y práctica. Aprendéis palabras que realmente usaréis, y las aprendéis de una manera que se quedan con vosotros.</li>
+<li><strong>Aprendizaje optimizado con verdadero SRS:</strong> El <strong>Sistema de Repetición Espaciada</strong> de Soliloquy no es solo un término elegante; es un método validado científicamente para maximizar la retención de memoria a largo plazo, asegurando que vuestro arduo trabajo rinda frutos de manera más efectiva que las aplicaciones con sistemas de revisión rudimentarios.</li>
+<li><strong>Un conjunto de herramientas holístico para una fluidez integral:</strong> Soliloquy no es solo una aplicación de tarjetas de memoria, o solo una aplicación para hablar. Es un conjunto de herramientas completo, que combina la práctica del habla, la construcción de vocabulario, el SRS, un diccionario y texto a voz (con Historias en camino) para abordar todas las facetas del aprendizaje de idiomas.</li>
+</ul>
+<p>Al aprovechar estos métodos científicamente probados, integrados en una aplicación intuitiva y de apoyo, no solo estáis aprendiendo; estáis aprendiendo de manera más inteligente, más rápida y construyendo una base para la fluidez de por vida. Un tutor de IA como Soliloquy hace que esta metodología de aprendizaje de idiomas potente y eficiente sea accesible para todos, ya seáis estudiantes que buscan el éxito académico, profesionales que necesitan comunicarse globalmente o aficionados que persiguen una pasión.</p>
+<h3>¿Estáis listos para dejar de soñar y empezar a hablar con confianza?</h3>
+<p>Si estáis cansados del lento y frustrante esfuerzo de los métodos obsoletos de aprendizaje de idiomas, si os habéis sentido defraudados por aplicaciones que prometieron mucho pero ofrecieron poco en términos de capacidad real para hablar en el mundo real, es hora de un cambio. Es hora de abrazar un camino más rápido y efectivo hacia la fluidez.</p>
+<p>Dejad de desear simplemente poder hablar inglés, polaco, alemán, francés, español o cualquiera de los otros 16 idiomas que ofrece Soliloquy. Las herramientas y la ciencia están aquí para hacer realidad vuestras aspiraciones lingüísticas.</p>
+<p><strong>Descargad Soliloquy hoy mismo. Experimentad la profunda diferencia que puede marcar un sistema de aprendizaje basado en el aprendizaje activo, la recuperación activa, la repetición espaciada y la práctica del habla impulsada por IA. ¡Vuestro viaje acelerado hacia una comunicación segura comienza ahora!</strong></p>
+  </article>
+
+  <div class="container mx-auto px-6 py-16 text-center">
+    <p class="text-xl md:text-2xl font-semibold text-brand-primary mb-10 max-w-2xl mx-auto">
+      ¡Participa en el aprendizaje activo de idiomas para obtener resultados más rápido!
+    </p>
+    <a href="#cta-app-stores" class="bg-brand-secondary hover:bg-brand-secondary-darker text-black font-bold py-4 px-10 rounded-full text-lg cta-button shadow-lg">
+      Descargar Aplicación
+    </a>
+  </div>
+</section>
+
 <section id="cta-app-stores" class="py-16 md:py-24 bg-brand-primary text-white">
   <div class="container mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">
@@ -461,14 +596,12 @@
     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
       <a href="https://apps.apple.com/us/app/soliloquy-speaking-practice/id1627990691" aria-label="Download on the App Store" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">Descargar en la</p>
-          <p class="text-xl font-semibold">App Store</p>
+          <img src="https://soliloquy.fun/assets/images/app-store-badge.svg" alt="Download on the App Store Image" width="150" height="auto" />
         </div>
       </a>
       <a href="https://play.google.com/store/apps/details?id=fun.soliloquy.app" aria-label="Get it on Google Play" class="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-lg flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-105">
         <div>
-          <p class="text-xs">DISPONIBLE EN</p>
-          <p class="text-xl font-semibold">Google Play</p>
+          <img src="https://soliloquy.fun/assets/images/google-play-badge.svg" alt="Get it on Google Play Image" width="150" height="auto" />
         </div>
       </a>
     </div>
