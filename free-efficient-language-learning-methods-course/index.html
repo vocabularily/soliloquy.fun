@@ -1,0 +1,122 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Efficient Language Learning Methods Course</title>
+  <link href="static/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary: '#7295f7',
+              'primary-darker': '#5a7dde',
+              secondary: '#61c084',
+              'secondary-darker': '#4faa70',
+            }
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out',
+            'float': 'float 3s ease-in-out infinite',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(30px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-gradient-to-br from-brand-primary via-brand-primary-darker to-brand-secondary min-h-screen flex items-center justify-center p-4 relative overflow-hidden">
+<!-- Background Pattern -->
+<div class="absolute inset-0 opacity-10">
+  <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="100" height="100" fill="url(#grid)"/>
+  </svg>
+</div>
+
+<!-- Main Container -->
+<div class="relative z-10 w-full max-w-5xl mx-auto bg-white/95 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/20 p-8 md:p-12 text-center animate-fade-in-up">
+
+  <!-- Header Section -->
+  <div class="mb-12">
+    <!-- Decorative Element -->
+    <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-2xl flex items-center justify-center shadow-lg animate-float">
+      <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+      </svg>
+    </div>
+
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-brand-primary via-brand-primary-darker to-brand-secondary bg-clip-text text-transparent mb-4 leading-tight">
+      Welcome to Efficient Language Learning Methods Course
+    </h1>
+
+    <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+      Please select your language to begin:
+    </p>
+  </div>
+
+  <!-- Course Cards Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+    
+    <a href="en/1-0-the-smart-start-introduction.html" class="group relative block p-8 bg-white rounded-2xl border-2 border-gray-100 hover:border-brand-primary transition-all duration-300 hover:shadow-xl hover:-translate-y-2 overflow-hidden">
+
+      <!-- Background Gradient on Hover -->
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-brand-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+      <!-- Language Flag -->
+      <div class="relative z-10 text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🇺🇸</div>
+
+      <!-- Course Content -->
+      <div class="relative z-10">
+        <h2 class="text-2xl font-bold text-gray-800 group-hover:text-brand-primary transition-colors duration-300 mb-2">
+          English
+        </h2>
+        <p class="text-gray-600 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">
+          Efficient Language Learning Methods
+        </p>
+      </div>
+
+      <!-- Hover Arrow -->
+      <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <svg class="w-6 h-6 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </div>
+    </a>
+    
+  </div>
+
+  <!-- Footer Text -->
+  <div class="mt-12 pt-8 border-t border-gray-200">
+    <p class="text-gray-500 text-sm">
+      Choose your preferred language to begin your learning journey
+    </p>
+  </div>
+</div>
+
+<!-- Floating Background Elements -->
+<div class="absolute top-20 left-20 w-32 h-32 bg-brand-primary/20 rounded-full blur-xl animate-float"></div>
+<div class="absolute bottom-20 right-20 w-40 h-40 bg-brand-secondary/20 rounded-full blur-xl animate-float" style="animation-delay: 1s;"></div>
+<div class="absolute top-1/2 left-10 w-24 h-24 bg-brand-primary-darker/20 rounded-full blur-xl animate-float" style="animation-delay: 2s;"></div>
+</body>
+</html>
