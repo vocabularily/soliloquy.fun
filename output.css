@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.7 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -229,6 +229,9 @@
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .isolate {
+    isolation: isolate;
   }
   .z-20 {
     z-index: 20;
@@ -723,9 +726,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .size-6 {
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
@@ -775,26 +775,14 @@
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
-  .max-w-none {
-    max-width: none;
-  }
   .max-w-xl {
     max-width: var(--container-xl);
-  }
-  .flex-shrink {
-    flex-shrink: 1;
   }
   .flex-shrink-0 {
     flex-shrink: 0;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -863,10 +851,6 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .border-t {
     border-top-style: var(--tw-border-style);
@@ -1062,12 +1046,6 @@
   .italic {
     font-style: italic;
   }
-  .no-underline {
-    text-decoration-line: none;
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1083,9 +1061,9 @@
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
+  .ring {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -1099,44 +1077,6 @@
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
-  }
-  .prose-slate {
-    --tw-prose-body: oklch(37.2% 0.044 257.287);
-    --tw-prose-headings: oklch(20.8% 0.042 265.755);
-    --tw-prose-lead: oklch(44.6% 0.043 257.281);
-    --tw-prose-links: oklch(20.8% 0.042 265.755);
-    --tw-prose-bold: oklch(20.8% 0.042 265.755);
-    --tw-prose-counters: oklch(55.4% 0.046 257.417);
-    --tw-prose-bullets: oklch(86.9% 0.022 252.894);
-    --tw-prose-hr: oklch(92.9% 0.013 255.508);
-    --tw-prose-quotes: oklch(20.8% 0.042 265.755);
-    --tw-prose-quote-borders: oklch(92.9% 0.013 255.508);
-    --tw-prose-captions: oklch(55.4% 0.046 257.417);
-    --tw-prose-kbd: oklch(20.8% 0.042 265.755);
-    --tw-prose-kbd-shadows: NaN NaN NaN;
-    --tw-prose-code: oklch(20.8% 0.042 265.755);
-    --tw-prose-pre-code: oklch(92.9% 0.013 255.508);
-    --tw-prose-pre-bg: oklch(27.9% 0.041 260.031);
-    --tw-prose-th-borders: oklch(86.9% 0.022 252.894);
-    --tw-prose-td-borders: oklch(92.9% 0.013 255.508);
-    --tw-prose-invert-body: oklch(86.9% 0.022 252.894);
-    --tw-prose-invert-headings: #fff;
-    --tw-prose-invert-lead: oklch(70.4% 0.04 256.788);
-    --tw-prose-invert-links: #fff;
-    --tw-prose-invert-bold: #fff;
-    --tw-prose-invert-counters: oklch(70.4% 0.04 256.788);
-    --tw-prose-invert-bullets: oklch(44.6% 0.043 257.281);
-    --tw-prose-invert-hr: oklch(37.2% 0.044 257.287);
-    --tw-prose-invert-quotes: oklch(96.8% 0.007 247.896);
-    --tw-prose-invert-quote-borders: oklch(37.2% 0.044 257.287);
-    --tw-prose-invert-captions: oklch(70.4% 0.04 256.788);
-    --tw-prose-invert-kbd: #fff;
-    --tw-prose-invert-kbd-shadows: 255 255 255;
-    --tw-prose-invert-code: #fff;
-    --tw-prose-invert-pre-code: oklch(86.9% 0.022 252.894);
-    --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
-    --tw-prose-invert-th-borders: oklch(44.6% 0.043 257.281);
-    --tw-prose-invert-td-borders: oklch(37.2% 0.044 257.287);
   }
   .hover\:scale-105 {
     &:hover {
@@ -1652,11 +1592,6 @@ body {
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -1707,7 +1642,6 @@ body {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
