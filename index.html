@@ -41,6 +41,21 @@
   <link rel="icon" href="https://soliloquy.fun/assets/images/ico.svg" type="image/png">
   <link href="output.css" rel="stylesheet">
 
+  <script>
+    (function() {
+      var supportedLangs = ['pl', 'de', 'ru', 'es', 'fr', 'it', 'pt', 'uk', 'no', 'sv', 'da', 'nl', 'fi', 'el', 'cs'];
+      var userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      var langCode = userLang.split('-')[0].split('_')[0];
+      if (supportedLangs.indexOf(langCode) !== -1 && langCode !== 'en') {
+        var redirectUrl = 'https://soliloquy.fun/' + langCode + '/';
+        var currentPath = window.location.pathname;
+        if (currentPath === '/' || currentPath === '') {
+          window.location.replace(redirectUrl);
+        }
+      }
+    })();
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
