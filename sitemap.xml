@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  soliloquy.fun also hosts the blog, so the root sitemap stays an index and the
+  landing page lives in sitemap-main.xml next to it. Collapsing this into one
+  urlset would drop the blog out of everything Google reads.
+-->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap>
-        <loc>https://soliloquy.fun/sitemap-main.xml</loc>
-        <lastmod>2025-05-16</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://soliloquy.fun/blog/sitemap.xml</loc>
-        <lastmod>2025-05-16</lastmod>
-    </sitemap>
+  <sitemap>
+    <loc>https://soliloquy.fun/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://soliloquy.fun/blog/sitemap.xml</loc>
+  </sitemap>
 </sitemapindex>
