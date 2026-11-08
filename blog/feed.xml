@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Soliloquy blog</title>
+  <subtitle>Notes on speaking practice, language learning, and the method behind Soliloquy. No fluent-in-3-months promises, no prices.</subtitle>
+  <link href="https://soliloquy.fun/blog/feed.xml" rel="self"/>
+  <link href="https://soliloquy.fun/blog/" rel="alternate"/>
+  <id>https://soliloquy.fun/blog/</id>
+  <updated>2026-11-08T00:00:00Z</updated>
+  <author><name>Soliloquy</name></author>
+  <entry>
+    <title>Language learning for beginners: produce, correct, review</title>
+    <link href="https://soliloquy.fun/blog/the-best-language-learning-strategy-for-beginners/"/>
+    <id>https://soliloquy.fun/blog/the-best-language-learning-strategy-for-beginners/</id>
+    <published>2024-04-26T00:00:00Z</published>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary type="text">Beginner advice often looks like a shopping list. A better strategy is to produce language, get specific corrections, and review them at the right time.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
+  <entry>
+    <title>Your first speaking session: how to start without an audience</title>
+    <link href="https://soliloquy.fun/blog/how-to-start-speaking-a-foreign-language-from-day-one/"/>
+    <id>https://soliloquy.fun/blog/how-to-start-speaking-a-foreign-language-from-day-one/</id>
+    <published>2024-04-12T00:00:00Z</published>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary type="text">Your first speaking session does not need an audience or perfect grammar. Here is a small loop you can do alone, today, in about 15 minutes.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
+  <entry>
+    <title>How to learn words so they stay in your head</title>
+    <link href="https://soliloquy.fun/blog/how-to-learn-words-faster/"/>
+    <id>https://soliloquy.fun/blog/how-to-learn-words-faster/</id>
+    <published>2024-04-05T00:00:00Z</published>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary type="text">Learning more words is not the same as speaking. Here is how to learn words in context, use them in your own sentences, and review them at the right time.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
+  <entry>
+    <title>How to build a daily speaking habit that survives a busy week</title>
+    <link href="https://soliloquy.fun/blog/creating-a-language-learning-habit-tips-for-consistent-practice/"/>
+    <id>https://soliloquy.fun/blog/creating-a-language-learning-habit-tips-for-consistent-practice/</id>
+    <published>2024-03-28T00:00:00Z</published>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary type="text">A daily language habit is not about motivation. It is about a small loop you can repeat on a busy day. Here is how to make speaking practice stick.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
+  <entry>
+    <title>A year of daily speaking practice: what actually changes</title>
+    <link href="https://soliloquy.fun/blog/learn-a-foreign-language-in-1-year-the-soliloquy-approach/"/>
+    <id>https://soliloquy.fun/blog/learn-a-foreign-language-in-1-year-the-soliloquy-approach/</id>
+    <published>2023-09-10T00:00:00Z</published>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary type="text">A year of daily practice can change how you speak, but nobody can promise a level by a date. Here is what actually changes, and what it takes.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
+</feed>
