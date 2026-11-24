@@ -5,8 +5,17 @@
   <link href="https://soliloquy.fun/blog/feed.xml" rel="self"/>
   <link href="https://soliloquy.fun/blog/" rel="alternate"/>
   <id>https://soliloquy.fun/blog/</id>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
   <author><name>Soliloquy</name></author>
+  <entry>
+    <title>A 1,500-day streak, and still silence. What apps actually measure</title>
+    <link href="https://soliloquy.fun/blog/1500-days-of-streak-and-still-silence/"/>
+    <id>https://soliloquy.fun/blog/1500-days-of-streak-and-still-silence/</id>
+    <published>2026-11-24T00:00:00Z</published>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary type="text">A 1,500-day streak in an app, and silence in conversation. A streak counts taps, not speaking. Here is what you should measure instead.</summary>
+    <author><name>Sławomir Onyszko</name></author>
+  </entry>
   <entry>
     <title>I understand Spanish, but I can't speak it. It's not a talent problem</title>
     <link href="https://soliloquy.fun/blog/i-understand-spanish-but-i-cant-speak-it/"/>
